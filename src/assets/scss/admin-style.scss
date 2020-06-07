@@ -1,0 +1,97 @@
+// Scss utilities
+@import "helpers/variables";
+@import "helpers/mixins"; 
+
+.theme-actions a.customize,
+ { 
+	display: none !important;
+}
+.button.nf-insert-form { display: none !important;}
+
+.acf-postbox {
+	.ui-sortable-handle {
+		background-color: $color1; color:#fff;
+	}
+}
+.acf-repeater .acf-table {
+	th[data-type="image"]{
+		width: 120px !important; max-width: 120px !important ;
+		& ~ th { width: auto !important;}
+	}
+	textarea { height: 80px !important  }  
+	.acf-image-uploader .view { max-width: 80px !important}
+}
+
+
+.acf-postbox {
+	h2.hndle {
+		&>span {
+			 font-size: 20px; line-height: 20px;
+		}
+	}
+}
+.acf-fields {
+	.acf-field.acf-block-title {
+	    position: absolute;
+	    top: -50px;
+	    background-color: $color1; color:#fff;
+	    left: 0;
+	    right: 30%;
+	    padding: 0;
+	    &>.acf-label { display: none; } 
+	    &>.acf-input {
+	    	input {
+				border: none;
+			    height: 46px;
+			    padding: 0 15px;
+			    font-size: 22px;
+			    background-color: transparent;
+			    color: #fff;    		
+			    display: block;
+	    	} 
+	    }
+	}
+}
+
+.acf-postbox > .hndle .acf-hndle-cog { display: none !important;  }
+
+[data-type="message"] {
+    background-color: #fff;
+    margin-bottom: -1px !important;
+    z-index: 2;     padding-bottom: 1px !important;
+	.acf-label {
+    font-size: 18px;
+    line-height: normal;
+    color: $color1;		margin: 0 !important;
+    text-transform: uppercase; 
+	}
+}
+
+.acf-fields > .acf-field {
+	&[data-name="seo_keywords__"] {	 
+	    float: left;
+	    width: 50%;
+	    clear: none;
+	}
+}
+
+
+/* Custom ------------*/
+.acf-fields > .acf-field {
+	&[data-name="gg_vertify_"],
+	&[data-name="gg_mapi"], 
+	&[data-name="gg_z"],
+	&[data-name="gg_lat"], 
+	&[data-name="gg_lng"]
+
+	{	
+	    float: left;
+	    width: 50%;
+	    clear: none;
+	}
+
+
+
+
+}
+

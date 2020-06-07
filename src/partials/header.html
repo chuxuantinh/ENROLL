@@ -1,0 +1,32 @@
+<header id="header" class="fixe" role="banner">
+  <div class="container-fluid"> 
+    <a href="./" id="logo" class="l"> 
+       <!-- <img src="assets/images/logo-dulich.svg" alt="logo" > -->
+      <img src="assets/images/logos.svg" alt="logo" >
+    </a>
+    <div class="wrap-menu-header ">
+      <div class="menu-head">
+        <h3>Mainmenu</h3>
+        <span class="menu-btn x"><span></span></span>
+      </div>      
+        <!-- <ul class="menu-top-header"> 
+          <li class="current"><a href="#">GIẢNG VIÊN</a>
+          <li><a href="#">CHƯƠNG TRÌNH ĐÀO TẠO</a></li>
+          <li><a href="#">TRIỂN VỌNG NGHỀ NGHIỆP</a></li>
+          <li><a href="#">HỌC BỔNG</a></li>
+          <li><a href="#">HỌC PHÍ</a></li>
+          <li><a href="#">ĐĂNG KÝ</a></li>
+        </ul> -->
+        <ul class="menu-top-header main-menu">
+          {{#each menu}}
+            <li class="{{this.class}}"><a href="{{this.url}}">{{ this.title }}</a></li>
+          {{/each}}
+        </ul>
+
+    </div>
+    <div class="group-header">
+      <div class="item"><a class="btn-search" href="javascript:void(0)"><i class="icon-search3"> </i></a></div>
+      <div class="item"><span class="menu-btn x"><span></span></span> </div>
+    </div>
+  </div>
+</header>

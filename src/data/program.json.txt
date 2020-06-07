@@ -1,0 +1,446 @@
+{
+	"title": "CHƯƠNG TRÌNH ĐÀO TẠO",
+	"items":[
+		{
+			"title": "Bậc Đại học",
+			"desc" : "Đại học 4 năm 8 học kỳ",
+			"departments" : [
+				{
+					"title": "Nhóm Ngành Du lịch",
+					"stages":[
+						{
+							"title": "Giai đoạn 1:",
+							"lists": [
+								{
+									"title": "Diễn kịch điện ảnh, truyền hình"
+									
+								},
+								{
+									"title": "Thanh nhạc"
+								}
+							]
+						},
+						{
+							"title": "Giai đoạn 2:",
+							"lists": [
+								{
+									"title": "Thiết kế đồ hoạ"
+								},
+								{
+									"title": "Thiết kế thời trang"
+								},
+								{	"title": "Đạo diễn sân khấu"
+								}
+							]
+						}
+					]
+				},
+				{
+					"title": "Nhóm Ngành Kinh tế",
+					"stages":[
+						{
+							"title": "Giai đoạn 1:",
+							"lists": [
+								{
+									"title": "Diễn kịch điện ảnh, truyền hình"
+									
+								},
+								{
+									"title": "Thanh nhạc"
+								}
+							]
+						},
+						{
+							"title": "Giai đoạn 2:",
+							"lists": [
+								{
+									"title": "Thiết kế đồ hoạ"
+								},
+								{
+									"title": "Thiết kế thời trang"
+								},
+								{	"title": "Đạo diễn sân khấu"
+								}
+							]
+						}
+					]
+				},
+				{
+					"title": "Nhóm ngành Ngoại ngữ",
+					"stages":[
+						{
+							"title": "Giai đoạn 1:",
+							"lists": [
+								{
+									"title": "Diễn kịch điện ảnh, truyền hình"
+									
+								},
+								{
+									"title": "Thanh nhạc"
+								}
+							]
+						},
+						{
+							"title": "Giai đoạn 2:",
+							"lists": [
+								{
+									"title": "Thiết kế đồ hoạ"
+								},
+								{
+									"title": "Thiết kế thời trang"
+								},
+								{	"title": "Đạo diễn sân khấu"
+								}
+							]
+						}
+					]
+				},
+				{
+					"title": "Nhóm ngành Nghệ thuật",
+					"stages":[
+						{
+							"title": "Giai đoạn 1:",
+							"lists": [
+								{
+									"title": "Diễn kịch điện ảnh, truyền hình"
+									
+								},
+								{
+									"title": "Thanh nhạc"
+								}
+							]
+						},
+						{
+							"title": "Giai đoạn 2:",
+							"lists": [
+								{
+									"title": "Thiết kế đồ hoạ"
+								},
+								{
+									"title": "Thiết kế thời trang"
+								},
+								{	"title": "Đạo diễn sân khấu"
+								}
+							]
+						}
+					]
+				}
+			] 
+		},
+        {
+            "title": "Bậc Cao đẳng",
+            "desc" : "Cao đẳng 2 năm 4 học kỳ <br> Cao đẳng 3 năm 6 học kỳ",
+            "departments" : [
+                {
+                    "title": "Nhóm Ngành Du lịch",
+                    "stages":[
+                        {
+                            "title": "Giai đoạn 1:",
+                            "lists": [
+                                {
+                                    "title": "Diễn kịch điện ảnh, truyền hình"
+                                    
+                                },
+                                {
+                                    "title": "Thanh nhạc"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Giai đoạn 2:",
+                            "lists": [
+                                {
+                                    "title": "Thiết kế đồ hoạ"
+                                },
+                                {
+                                    "title": "Thiết kế thời trang"
+                                },
+                                {   "title": "Đạo diễn sân khấu"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Nhóm ngành Kinh tế",
+                    "stages":[
+                        {
+                            "title": "Giai đoạn 1:",
+                            "lists": [
+                                {
+                                    "title": "Diễn kịch điện ảnh, truyền hình"
+                                    
+                                },
+                                {
+                                    "title": "Thanh nhạc"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Giai đoạn 2:",
+                            "lists": [
+                                {
+                                    "title": "Thiết kế đồ hoạ"
+                                },
+                                {
+                                    "title": "Thiết kế thời trang"
+                                },
+                                {   "title": "Đạo diễn sân khấu"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Nhóm ngành Ngoại ngữ",
+                    "stages":[
+                        {
+                            "title": "Giai đoạn 1:",
+                            "lists": [
+                                {
+                                    "title": "Diễn kịch điện ảnh, truyền hình"
+                                    
+                                },
+                                {
+                                    "title": "Thanh nhạc"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Giai đoạn 2:",
+                            "lists": [
+                                {
+                                    "title": "Thiết kế đồ hoạ"
+                                },
+                                {
+                                    "title": "Thiết kế thời trang"
+                                },
+                                {   "title": "Đạo diễn sân khấu"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Nhóm ngành Nghệ thuật",
+                    "stages":[
+                        {
+                            "title": "Giai đoạn 1:",
+                            "lists": [
+                                {
+                                    "title": "Diễn kịch điện ảnh, truyền hình"
+                                    
+                                },
+                                {
+                                    "title": "Thanh nhạc"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Giai đoạn 2:",
+                            "lists": [
+                                {
+                                    "title": "Thiết kế đồ hoạ"
+                                },
+                                {
+                                    "title": "Thiết kế thời trang"
+                                },
+                                {   "title": "Đạo diễn sân khấu"
+                                }
+                            ]
+                        }
+                    ]
+                }
+                ,
+                {
+                    "title": "Nhóm ngành Mỹ thuật công nghiệp",
+                    "stages":[
+                        {
+                            "title": "Giai đoạn 1:",
+                            "lists": [
+                                {
+                                    "title": "Diễn kịch điện ảnh, truyền hình"
+                                    
+                                },
+                                {
+                                    "title": "Thanh nhạc"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Giai đoạn 2:",
+                            "lists": [
+                                {
+                                    "title": "Thiết kế đồ hoạ"
+                                },
+                                {
+                                    "title": "Thiết kế thời trang"
+                                },
+                                {   "title": "Đạo diễn sân khấu"
+                                }
+                            ]
+                        }
+                    ]
+                }
+                ,
+                {
+                    "title": "Nhóm ngành Công nghệ thông tin",
+                    "stages":[
+                        {
+                            "title": "Giai đoạn 1:",
+                            "lists": [
+                                {
+                                    "title": "Diễn kịch điện ảnh, truyền hình"
+                                    
+                                },
+                                {
+                                    "title": "Thanh nhạc"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Giai đoạn 2:",
+                            "lists": [
+                                {
+                                    "title": "Thiết kế đồ hoạ"
+                                },
+                                {
+                                    "title": "Thiết kế thời trang"
+                                },
+                                {   "title": "Đạo diễn sân khấu"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ] 
+        },
+        {
+            "title": "Bậc trung cấp",
+            "desc" : "Trung cấp 2 năm <br> Trung cấp 2 năm 3 tháng",
+            "departments" : [
+               
+                {
+                    "title": "Nhóm Ngành Du lịch",
+                    "stages":[
+                        {
+                            "title": "Giai đoạn 1:",
+                            "lists": [
+                                {
+                                    "title": "Diễn kịch điện ảnh, truyền hình"
+                                    
+                                },
+                                {
+                                    "title": "Thanh nhạc"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Giai đoạn 2:",
+                            "lists": [
+                                {
+                                    "title": "Thiết kế đồ hoạ"
+                                },
+                                {
+                                    "title": "Thiết kế thời trang"
+                                },
+                                {   "title": "Đạo diễn sân khấu"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Nhóm ngành Kinh tế",
+                    "stages":[
+                        {
+                            "title": "Giai đoạn 1:",
+                            "lists": [
+                                {
+                                    "title": "Diễn kịch điện ảnh, truyền hình"
+                                    
+                                },
+                                {
+                                    "title": "Thanh nhạc"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Giai đoạn 2:",
+                            "lists": [
+                                {
+                                    "title": "Thiết kế đồ hoạ"
+                                },
+                                {
+                                    "title": "Thiết kế thời trang"
+                                },
+                                {   "title": "Đạo diễn sân khấu"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Nhóm ngành Nghệ thuật",
+                    "stages":[
+                        {
+                            "title": "Giai đoạn 1:",
+                            "lists": [
+                                {
+                                    "title": "Diễn kịch điện ảnh, truyền hình"
+                                    
+                                },
+                                {
+                                    "title": "Thanh nhạc"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Giai đoạn 2:",
+                            "lists": [
+                                {
+                                    "title": "Thiết kế đồ hoạ"
+                                },
+                                {
+                                    "title": "Thiết kế thời trang"
+                                },
+                                {   "title": "Đạo diễn sân khấu"
+                                }
+                            ]
+                        }
+                    ]
+                }
+                ,{
+                    "title": "Nhóm ngành Mỹ thuật công nghiệp",
+                    "stages":[
+                        {
+                            "title": "Giai đoạn 1:",
+                            "lists": [
+                                {
+                                    "title": "Diễn kịch điện ảnh, truyền hình"
+                                    
+                                },
+                                {
+                                    "title": "Thanh nhạc"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Giai đoạn 2:",
+                            "lists": [
+                                {
+                                    "title": "Thiết kế đồ hoạ"
+                                },
+                                {
+                                    "title": "Thiết kế thời trang"
+                                },
+                                {   "title": "Đạo diễn sân khấu"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ] 
+        }
+	]
+}

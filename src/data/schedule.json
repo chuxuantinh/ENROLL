@@ -1,0 +1,36 @@
+{
+    "img" : "bg/schedule.png",
+	"items":[
+		{
+			"title": "THỜI GIAN TUYỂN SINH",
+			"items" : [
+				{
+					"desc": "Tuyển sinh liên tục hằng tháng từ ngày <strong>02/04/2019</strong>"
+				},
+				{
+                    "desc": "Xét tuyển/thi tuyển từ ngày <strong>01</strong> đến ngày <strong>25</strong> hằng tháng"
+                },
+                {
+                    "desc": "Thông báo kết quả xét tuyển/thi tuyển; từ ngày <strong>25</strong> đến ngày <strong>28</strong> hằng tháng"
+                },
+                {
+                    "desc": "Nhập học từ ngày <strong>15</strong> đến <strong>28</strong> hằng tháng"
+                }
+			] 
+		},
+        {
+            "title": "PHƯƠNG THỨC TUYỂN SINH",
+            "desc": "(Hệ 2 năm và 3 năm)",
+            "items" : [
+                {
+                    "title": "Xét tuyển",
+                    "desc": "Đối với nhóm ngành Du lịch, Kinh tế, Ngoại ngữ, Công nghệ thông tin"
+                },
+                {
+                    "title": "Thi tuyển",
+                    "desc": "Đối với nhóm ngành Nghệ thuật, Mỹ thuật công nghiệp; và thí sinh hệ 2 năm muốn nhận học bổng 100%, 50%, 25% của Nhà trường"
+                }
+            ] 
+        }
+	]
+}

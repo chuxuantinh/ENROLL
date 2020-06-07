@@ -1,0 +1,15 @@
+.home-banner {
+  background-image: url(../photos/banner/02.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 200px 0; }
+
+.image-right {
+  padding-left: 50%;
+  margin-bottom: 70px; }
+  .image-right img {
+    width: 333px; }
+
+.voice-community blockquote {
+  padding: 280px 90px; }

@@ -1,0 +1,82 @@
+#footer {
+	background-color: $color1;
+	color: #fff;
+	padding: {top: 40px; bottom: 70px;}
+	.title{
+		color: $color2;
+		text-transform: uppercase;
+	}
+	.address{
+		margin-bottom: 80px;
+		span{
+			font-weight: bold;
+		}
+		.item{
+			margin-bottom: 10px;
+			line-height: 27px;
+		}
+		.phone{
+			overflow: hidden;
+			@include min768{
+				strong{
+				float: left; margin-right: 10px; 
+				}
+				.number{
+					float: left; 
+				}
+			}
+			
+		}
+	}
+
+	.social{
+		li{
+			display: inline-block;
+			i{
+				color: inherit; font-size: 28px; margin-right: 10px;
+				@extend .tss5;
+			}
+		}
+	}
+	@include max767{
+		.col-1{
+			margin-bottom: 20px;
+		}
+		.address{
+			margin-bottom: 20px;
+		}
+	}
+	@include max767{
+	   	text-align: center;
+	   	padding-bottom: 40px;
+	}
+	
+}
+
+.social{
+	li{
+		a{
+			&:hover{
+				i:before{
+					color: $color2;
+				}
+				
+			}
+		}
+	}
+}	
+
+
+#copyright { 
+   background-color: $color2;
+   color: $color1;
+   p{
+   	margin-bottom: 0;
+   	padding: 8px;
+   }
+   @include max767{
+   	text-align: center;
+   }
+} 
+
+

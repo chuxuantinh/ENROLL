@@ -1,0 +1,1550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="assets/images/favicon.png" type="image/png">
+    <title>Home - SAIGONACT - Trường Cao đẳng Văn hóa Nghệ thuật và Du lịch Sài Gòn</title>
+    <script type="text/javascript">
+    (function() {
+        var css = document.createElement('link');
+        css.href = 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+        css.rel = 'stylesheet';
+        css.type = 'text/css';
+        document.getElementsByTagName('head')[0].appendChild(css);
+    })();
+    </script>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- <link rel="stylesheet" href="assets/css/theme.css"> -->
+</head>
+
+<body>
+    <header id="header" class="fixe" role="banner">
+        <div class="container-fluid">
+            <a href="./" id="logo" class="l">
+                <!-- <img src="assets/images/logo-dulich.svg" alt="logo" > -->
+                <img src="assets/images/logos.svg" alt="logo">
+            </a>
+            <div class="wrap-menu-header ">
+                <div class="menu-head">
+                    <h3>Mainmenu</h3>
+                    <span class="menu-btn x"><span></span></span>
+                </div>
+                <!-- <ul class="menu-top-header"> 
+              <li class="current"><a href="#">GIẢNG VIÊN</a>
+              <li><a href="#">CHƯƠNG TRÌNH ĐÀO TẠO</a></li>
+              <li><a href="#">TRIỂN VỌNG NGHỀ NGHIỆP</a></li>
+              <li><a href="#">HỌC BỔNG</a></li>
+              <li><a href="#">HỌC PHÍ</a></li>
+              <li><a href="#">ĐĂNG KÝ</a></li>
+            </ul> -->
+                <ul class="menu-top-header main-menu">
+                    <li class="current"><a href="#team">GIẢNG VIÊN</a></li>
+                    <li class=""><a href="#program">CHƯƠNG TRÌNH ĐÀO TẠO</a></li>
+                    <li class=""><a href="#career">TRIỂN VỌNG NGHỀ NGHIỆP</a></li>
+                    <li class=""><a href="#scholarship">HỌC BỔNG</a></li>
+                    <li class=""><a href="#fee">HỌC PHÍ</a></li>
+                    <li class=""><a href="#register">ĐĂNG KÝ</a></li>
+                </ul>
+            </div>
+            <div class="group-header">
+                <div class="item"><a class="btn-search" href="javascript:void(0)"><i class="icon-search3"> </i></a></div>
+                <div class="item"><span class="menu-btn x"><span></span></span> </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrap-menu-mb" data-style="1">
+        <div class="wrapul main mobile-center">
+            <!--  <ul class="menu"> 
+              <li class="current"><a href="#">GIẢNG VIÊN</a>
+              <li><a href="#">CHƯƠNG TRÌNH ĐÀO TẠO</a></li>
+              <li><a href="#">TRIỂN VỌNG NGHỀ NGHIỆP</a></li>
+              <li><a href="#">HỌC BỔNG</a></li>
+              <li><a href="#">HỌC PHÍ</a></li>
+              <li><a href="#">ĐĂNG KÝ</a></li>
+        </ul>  -->
+            <ul class="menu main-menu">
+                <li class="current"><a href="#team">GIẢNG VIÊN</a></li>
+                <li class=""><a href="#program">CHƯƠNG TRÌNH ĐÀO TẠO</a></li>
+                <li class=""><a href="#career">TRIỂN VỌNG NGHỀ NGHIỆP</a></li>
+                <li class=""><a href="#scholarship">HỌC BỔNG</a></li>
+                <li class=""><a href="#fee">HỌC PHÍ</a></li>
+                <li class=""><a href="#register">ĐĂNG KÝ</a></li>
+            </ul>
+            <!--  <div class="bottom">
+            <ul class=" social list-inline text-center">
+              <li><a href="#"><i class="icon icon-facebook"></i></a></li>
+              <li><a href="#"><i class="icon icon-instagram"></i></a></li>
+            </ul>
+            <div class="contact">
+              <a href="tel:+84(28)37442991​​">+84 (28) 3744 2991​​</a><br>
+             <a href="tel:+84982012860">+84 982 012 860</a><br>
+           </div>
+        </div> -->
+        </div>
+    </div>
+    <main role="main">
+        <!-- register -->
+        <section id="register" class="section register">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 sec-title">
+                        <h2 class="">ĐĂNG KÝ XÉT TUYỂN TRỰC TUYẾN</h2>
+                        <div class="desc"><strong>Điều kiện nhập học</strong>: Chỉ cần tốt nghiệp THPT (hoặc tương đương)<br>Vui lòng điền đầy đủ các thông tin bên dưới (lưu ý nhập tiếng Việt có dấu)</div>
+                    </div>
+                    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+                        <form id="form-register" class="form-register mangosteen" method="POST">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12">
+                                    <h6 class="title">Thông tin thí sinh</h6>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <label class="rowblock"><span class="title">Họ và tên*</span> <input type="text" class="input" placeholder="Họ và tên" name="fullname" id="fullname" required></label>
+                                </div>
+                                <div class="col-sm-4">
+                                    <label class="rowblock"><span class="title">Ngày sinh (tháng/ngày/năm)</span> <input name="dob" id="dob" type="date" class="input" placeholder="mm/dd/yy" required></label>
+                                </div>
+                                <div class="col-sm-4">
+                                    <label class="rowblock"><span class="title">Giới tính*</span>
+                                        <label><input type="radio" name="radioName" value="Male" checked>Nam</label>
+                                        <label><input type="radio" name="radioName" value="Female">Nữ</label>
+                                        <input type="hidden" name="gen" value="Male">
+                                    </label>
+                                </div>
+                                <div class="col-sm-4">
+                                    <label class="rowblock"><span class="title">Nơi sinh*</span> <input name="city" id="city" type="text" class="input" placeholder="Tỉnh / Thành phố" required></label>
+                                </div>
+                                <div class="col-sm-4">
+                                    <label class="rowblock"><span class="title">Điện thoại*</span> <input name="phone" id="phone" type="tel" class="input" placeholder="Số điện thoại liên lạc" required pattern="^[0-9]{10,11}$"></label>
+                                </div>
+                                <div class="col-sm-4">
+                                    <label class="rowblock"><span class="title">Email</span> <input name="email" id="email" type="email" class="input" placeholder="Địa chỉ email"></label>
+                                </div>
+                                <div class="col-sm-12">
+                                    <label class="rowblock"><span class="title">Địa chỉ*</span> <input name="address" id="address" type="text" class="input" placeholder="Số nhà, đường/tổ dân phố, quận/huyện/thị xã, tỉnh/thành phố" required></label>
+                                </div>
+                                <div class="col-sm-4">
+                                    <label class="rowblock"><span class="title">Tên trường THPT (năm lớp 12)</span> <input name="hightschool" id="hightschool" type="text" class="input" placeholder="Tên trường THPT (năm lớp 12)"></label>
+                                </div>
+                                <div class="col-sm-4">
+                                    <label class="rowblock"><span class="title">Tỉnh / Thành phố</span> <input name="hightschoolcity" id="hightschoolcity" type="text" class="input" placeholder="Tỉnh/Thành phố trường THPT"></label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <h6 class="title">Thông tin xét tuyển</h6>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <label class="rowblock"><span class="title">Bậc học</span>
+                                        <select class="select2-single" name="selLevel" id="selLevel" data-placeholder="Bậc học*">
+                                            <option value="0">TRUNG CẤP</option>
+                                            <option value="1">CAO ĐẲNG</option>
+                                        </select>
+                                        <input type="hidden" name="level" value="TRUNG CẤP">
+                                    </label>
+                                </div>
+                                <div class="col-sm-4">
+                                    <label class="rowblock"><span class="title">Ngành đăng ký</span>
+                                        <select id="selDep"></select>
+                                    </label>
+                                    <!-- <input id="selDep" type="hidden" style="width:300px"/> -->
+                                    <!--  <input id="selDep" type="text" style="width: 200px !important;height: 35px !important;opacity: 1;visibility: visible;position: absolute;z-index: 1;clip: unset !important;/* border: 1px solid #ddd !important; */padding-left: 15px !important;top: 35px;left: 18px;" tabindex="-1" class="" aria-hidden="false" value="DL"> -->
+                                    <input type="hidden" name="department" value="Quản lý văn hóa">
+                                </div>
+                                <div class="col-sm-12">
+                                    <label class="rowblock"><span class="title">Địa chỉ nhận giấy báo trúng tuyển*</span> <input id="addressreceiver" name="addressreceiver" type="text" class="input" placeholder="Số nhà, đường/tổ dân phố, quận/huyện/thị xã, tỉnh/thành phố" required></label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 mb-50 text-center">
+                                    <div id="result" class="result">
+                                    </div>
+                                    <button class="btn btn-default" type="submit">ĐĂNG KÝ XÉT TUYỂN TRỰC TUYẾN</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="home-banner" class="full-banner-2 tRes_2_1 bg-lazy" style="background-image: url(assets/images/banners/home-banner.jpg);" data-src="assets/images/banners/home-banner.jpg">
+            <div class="OwlSlider owl-carousel s-loop s-fade s-auto" data-autospeed="2000">
+                <div class="item h1"># Tri thức </div>
+                <div class="item h1"># Trầm tích</div>
+                <div class="item h1"># Thăng hoa</div>
+            </div>
+        </section>
+        <section id="welcome" class="section welcome">
+            <h3 class="title text-center">
+                <!--  Chào mừng đến với <br>
+        Trường Cao đẳng Văn hóa Nghệ thuật và Du lịch Sài Gòn (SAIGONACT) -->
+                Chào mừng đến với <br> Trường Cao đẳng Văn hóa Nghệ thuật và Du lịch Sài Gòn
+            </h3>
+        </section>
+        <section id="reason" class="section reason">
+            <div class="container">
+                <div class="row grid-space-0">
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="text display-table ">
+                            <div class="table-cell">
+                                <div class="article">
+                                    <h2 class="title">10 LÝ DO CHỌN SAIGONACT</h2>
+                                    <ul class="listing-icon listing-chevron-right">
+                                        <li class="">Trường Cao đẳng uy tín về chất lượng đào tạo</li>
+                                        <li class="">Học phí thấp và không thay đổi trong quá trình học</li>
+                                        <li class="">Sở hữu 200 phòng học , 40 phòng thực hành trang thiết bị hiện đại</li>
+                                        <li class="">Sinh viên được thực tập và làm việc ngay trong các công ty của Nhà trường</li>
+                                        <li class="">Đội ngũ giảng viên tận tâm với học hàm, học vị cao</li>
+                                        <li class="">Trường mở rộng công tác đối ngoại, nghiên cứu khoa học, hợp tác Quốc tế</li>
+                                        <li class="">Sinh viên được đi du học có học bổng nếu đạt trình độ ngoại ngữ Anh, Nhật, Hàn.</li>
+                                        <li class="">Sinh viên được hưởng nhiều học bổng khi vào Trường</li>
+                                        <li class="">Ký túc xá có máy lạnh, đầy đủ tiện nghi, hiện đại</li>
+                                        <li class="">Hơn 90% sinh viên có việc làm ngay sau khi tốt nghiệp</li>
+                                    </ul>
+                                    <!-- <a href="#" class="link"><i class="icon-chevron-down"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- teams -->
+        <section id="team" class="section team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-8 col-sm-offset-2 sec-title">
+                        <h2 class="">ĐỘI NGŨ GIẢNG VIÊN</h2>
+                        <p class="desc">Đội ngũ giảng viên giàu kinh nghiệm và tận tâm với nghề, là các Giáo sư, Tiến sĩ, Thạc sĩ, Nghệ sĩ nhân dân, Nghệ sĩ ưu tú, người nổi tiếng đang hoạt động trong các lĩnh vực kinh tế, du lịch, ngoại ngữ, công nghệ thông tin, nghệ thuật và mỹ thuật công nghiệp.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6 col-sm-4">
+                        <div class="item">
+                            <div class="thumb">
+                                <div class="tRes_75">
+                                    <img src="assets/images/team/1.jpg" alt="KHOA DU LỊCH">
+                                </div>
+                            </div>
+                            <h4 class="title">KHOA DU LỊCH</h4>
+                            <a id="" href="#" data-title="KHOA DU LỊCH" data-src="assets/images/team/1.jpg" class="btn btn-primary" data-dismiss="modal" data-target="#myModal">Chi tiết </a>
+                            <div class="hidden member">
+                                <div class="list">
+                                    <h5 class="title-sub">1. Quản trị Dịch vụ Du lịch và Lữ hành</h5>
+                                    <ul class="member">
+                                        <li>PGS.TS.Vũ Tuấn Cảnh</li>
+                                        <li>ThS.Trần Đình Phương</li>
+                                        <li>ThS.Trần Thị Tuyết Sương</li>
+                                        <li>ThS.Đỗ Thị Hồng Phú</li>
+                                        <li>ThS.Phan Đông Nhựt</li>
+                                        <li>ThS.Nguyễn Cao Thắng</li>
+                                    </ul>
+                                </div>
+                                <div class="list">
+                                    <h5 class="title-sub">2. Quản trị lữ hành</h5>
+                                    <ul class="member">
+                                        <li>PGS.TS.Vũ Tuấn Cảnh</li>
+                                        <li>ThS.Trần Đình Phương</li>
+                                        <li>ThS.Trần Thị Tuyết Sương</li>
+                                        <li>ThS.Đỗ Thị Hồng Phú</li>
+                                        <li>ThS.Phan Đông Nhựt</li>
+                                        <li>ThS.Nguyễn Cao Thắng</li>
+                                    </ul>
+                                </div>
+                                <div class="list">
+                                    <h5 class="title-sub">3. Quản trị khách sạn</h5>
+                                    <ul class="member">
+                                        <li>TS.Phạm Thị Xuân Thọ</li>
+                                        <li>ThS.Phạm Đức Thịnh</li>
+                                        <li>ThS.Nguyễn Quang Ánh</li>
+                                        <li>ThS.Trần Ngọc Hân</li>
+                                    </ul>
+                                </div>
+                                <div class="list">
+                                    <h5 class="title-sub">4. Hướng dẫn du lịch</h5>
+                                    <ul class="member">
+                                        <li>TS.Vũ Khắc Chương</li>
+                                        <li>ThS.Phạm Văn Phương</li>
+                                        <li>ThS.Nguyễn Thị Lý</li>
+                                        <li>ThS.Võ Thị Búp</li>
+                                        <li>ThS.Trần Thị Kim Oanh</li>
+                                        <li>ThS.Đoàn Thị Mai</li>
+                                        <li>ThS.Bùi Thị Huyền</li>
+                                        <li>ThS.Phan Trí Dũng/li>
+                                        <li>ThS.Võ Sơn Đông</li>
+                                        <li>ThS.Hẩu Hải Tài</li>
+                                        <li>ThS.Nguyễn Công Thành</li>
+                                        <li>ThS.Trương Thị Pha</li>
+                                        <li>CN.Cao Vũ Thảo Ly</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                        <div class="item">
+                            <div class="thumb">
+                                <div class="tRes_75">
+                                    <img src="assets/images/team/2.jpg" alt="KHOA KINH TẾ">
+                                </div>
+                            </div>
+                            <h4 class="title">KHOA KINH TẾ</h4>
+                            <a id="" href="#" data-title="KHOA KINH TẾ" data-src="assets/images/team/2.jpg" class="btn btn-primary" data-dismiss="modal" data-target="#myModal">Chi tiết </a>
+                            <div class="hidden member">
+                                <div class="list">
+                                    <h5 class="title-sub">1. Giảng viên đầu ngành Tài chính ngân hàng</h5>
+                                    <ul class="member">
+                                        <li>PGS.TS.Nguyễn Danh Thuận</li>
+                                        <li>TS.Huỳnh Xuân Hiệp</li>
+                                        <li>ThS.Đinh Thị Kim Loan</li>
+                                        <li>ThS.Nguyễn Văn Nhân</li>
+                                        <li>ThS.Trần Tấn Tài</li>
+                                        <li>ThS.Lê Thị Vân Anh</li>
+                                    </ul>
+                                </div>
+                                <div class="list">
+                                    <h5 class="title-sub">2. Giảng viên đầu ngành Kế toán</h5>
+                                    <ul class="member">
+                                        <li>TS.Ngô Thị Thục</li>
+                                        <li>ThS.Phan Thị Trà Mỹ</li>
+                                        <li>ThS.Trần Quốc Hùng</li>
+                                        <li>ThS.Lê Thị Vân Anh</li>
+                                        <li>CN.Trần Thị Hương</li>
+                                    </ul>
+                                </div>
+                                <div class="list">
+                                    <h5 class="title-sub">3. Giảng viên đầu ngành Kế toán doanh nghiệp</h5>
+                                    <ul class="member">
+                                        <li>TS.Ngô Thị Thục</li>
+                                        <li>ThS.Phan Thị Trà Mỹ</li>
+                                        <li>ThS.Trần Quốc Hùng</li>
+                                        <li>ThS.Lê Thị Vân Anh</li>
+                                        <li>CN.Trần Thị Hương</li>
+                                    </ul>
+                                </div>
+                                <div class="list">
+                                    <h5 class="title-sub">4. Giảng viên đầu ngành Thư ký</h5>
+                                    <ul class="member">
+                                        <li>TS.Hồ Hữu Lân</li>
+                                        <li>ThS.Hồ Thị Ngọc Vân</li>
+                                    </ul>
+                                </div>
+                                <div class="list">
+                                    <h5 class="title-sub">5. Giảng viên đầu ngành Thư ký văn phòng</h5>
+                                    <ul class="member">
+                                        <li>TS.Hồ Hữu Lân</li>
+                                        <li>ThS.Hồ Thị Ngọc Vân</li>
+                                    </ul>
+                                </div>
+                                <div class="list">
+                                    <h5 class="title-sub">6. Giảng viên đầu ngành Phát hành xuất bản phẩm</h5>
+                                    <ul class="member">
+                                        <li>ThS.Trần Thị Lệ Hòa</li>
+                                        <li>ThS.Nguyễn Văn Trọng</li>
+                                    </ul>
+                                </div>
+                                <div class="list">
+                                    <h5 class="title-sub">7. Giảng viên đầu ngành Quản trị kinh doanh</h5>
+                                    <ul class="member">
+                                        <li>PGS.TS.Nguyễn Danh Ngà</li>
+                                        <li>ThS.Trần Thanh Phong</li>
+                                        <li>ThS.Võ Nguyên Vũ</li>
+                                        <li>ThS.Nguyễn Thanh Bình</li>
+                                        <li>ThS.Nguyễn Thị Nhung</li>
+                                        <li>ThS.Phạm Ngọc Phú</li>
+                                        <li>ThS.Võ Xuân Hùng</li>
+                                        <li>ThS.Hoàng Công Viên</li>
+                                        <li>ThS.Ngô Thị Hồng Hoa</li>
+                                        <li>ThS.Phạm Văn Chinh</li>
+                                        <li>ThS.Vũ Sơn Tùng</li>
+                                        <li>ThS.Ngụy Thị Thu Thủy</li>
+                                        <li>ThS.Lê Quang Bình</li>
+                                        <li>ThS.Nguyễn Hoàng Phước</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                        <div class="item">
+                            <div class="thumb">
+                                <div class="tRes_75">
+                                    <img src="assets/images/team/3.jpg" alt="KHOA NGOẠI NGỮ">
+                                </div>
+                            </div>
+                            <h4 class="title">KHOA NGOẠI NGỮ</h4>
+                            <a id="" href="#" data-title="KHOA NGOẠI NGỮ" data-src="assets/images/team/3.jpg" class="btn btn-primary" data-dismiss="modal" data-target="#myModal">Chi tiết </a>
+                            <div class="hidden member">
+                                <div class="list">
+                                    <h5 class="title-sub">1. Giảng viên đầu ngành ngoại ngữ</h5>
+                                    <ul class="member">
+                                        <li>GS.TS.Nguyễn Thị Hai</li>
+                                        <li>PGS.TS.Phùng Quý Nhâm</li>
+                                        <li>ThS.Nguyễn Kim Ánh</li>
+                                        <li>ThS. Nguyễn Thị Hoàng Hoanh</li>
+                                        <li>ThS.Hoàng Tiểu Nga</li>
+                                        <li>ThS.Ngô Kim Phượng</li>
+                                        <li>ThS.Mai Thị Thúy Phượng</li>
+                                        <li>ThS.Đoàn Thị Minh Trang</li>
+                                        <li>ThS.Nguyễn Thị Thu Hằng</li>
+                                        <li>ThS.Nguyễn Thị Thu Hiền</li>
+                                        <li>ThS.Dương Thị Nào</li>
+                                        <li>ThS.Nguyễn Minh Triết</li>
+                                        <li>TS.Nguyễn Thị Thùy Linh</li>
+                                        <li>ThS.Huỳnh Sang</li>
+                                        <li>ThS.Mai Đặng Mỹ Hiền</li>
+                                        <li>ThS.Lý Văn Hà</li>
+                                        <li>ThS.Lý Ái Tâm</li>
+                                        <li>ThS.Nguyễn Thị Tú Anh</li>
+                                        <li>ThS.Lê Thanh Bình</li>
+                                        <li>CN.Nguyễn Trường Xuân</li>
+                                        <li>CN.Trần Thị Tuyết Hoa</li>
+                                        <li>CN.Cao Thị Mỹ Hoa</li>
+                                    </ul>
+                                </div>
+                                <div class="list">
+                                    <h5 class="title-sub">2. Giảng viên đầu ngành Tiếng Hàn Quốc</h5>
+                                    <ul class="member">
+                                        <li>TS.Nguyễn Thị Thùy Linh</li>
+                                        <li>ThS.Huỳnh Sang</li>
+                                        <li>ThS.Mai Đặng Mỹ Hiền</li>
+                                    </ul>
+                                </div>
+                                <div class="list">
+                                    <h5 class="title-sub">3. Giảng viên đầu ngành Tiếng Trung Quốc</h5>
+                                    <ul class="member">
+                                        <li>PGS.TS.Phùng Quý Nhâm</li>
+                                        <li>ThS.Lý Văn Hà</li>
+                                        <li>ThS.Lý Ái Tâm</li>
+                                        <li>ThS.Nguyễn Thị Tú Anh</li>
+                                    </ul>
+                                </div>
+                                <div class="list">
+                                    <h5 class="title-sub">4. Giảng viên đầu ngành Tiếng Nhật</h5>
+                                    <ul class="member">
+                                        <li>GS.TS.Nguyễn Thị Hai</li>
+                                        <li>ThS.Lê Thanh Bình</li>
+                                        <li>CN.Nguyễn Trường Xuân</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                        <div class="item">
+                            <div class="thumb">
+                                <div class="tRes_75">
+                                    <img src="assets/images/team/4.jpg" alt="KHOA NGHỆ THUẬT">
+                                </div>
+                            </div>
+                            <h4 class="title">KHOA NGHỆ THUẬT - MTCN</h4>
+                            <a id="" href="#" data-title="KHOA NGHỆ THUẬT - MTCN" data-src="assets/images/team/4.jpg" class="btn btn-primary" data-dismiss="modal" data-target="#myModal">Chi tiết </a>
+                            <div class="hidden member">
+                                <div class="list">
+                                    <h5 class="title-sub">1. Giảng viên đầu ngành Thanh nhạc</h5>
+                                    <ul class="member">
+                                        <li>NGND.PGS.TS.Vũ Hướng</li>
+                                        <li>ThS.Nguyễn Hữu Bài</li>
+                                        <li>ThS.Đặng Như Hoàng</li>
+                                        <li>ThS.Nguyễn Thị Thúy Huỳnh</li>
+                                        <li>NSƯT.CN.Phạm Xuân Đồng</li>
+                                        <li>CN.Hà Tiến Dũng</li>
+                                        <li>CN.Đặng Thanh Sử</li>
+                                        <li>CN.Nguyễn Ngọc Bảo</li>
+                                    </ul>
+                                </div>
+                                <div class="list">
+                                    <h5 class="title-sub">2. Giảng viên đầu ngành Diễn viên kịch – điện ảnh</h5>
+                                    <ul class="member">
+                                        <li>PGS.TS.Trần Luân Kim</li>
+                                        <li>NSND.CN.Tâm Chính</li>
+                                        <li>NSND.Trần Đình Sanh</li>
+                                        <li>CN.Nguyễn Khánh Trường</li>
+                                        <li>NSƯT.CN.Đỗ Phương Toàn</li>
+                                        <li>NSƯT.Lê Thị Nhâm</li>
+                                        <li>CN.Trần Hữu Nghĩa</li>
+                                    </ul>
+                                </div>
+                                <div class="list">
+                                    <h5 class="title-sub">3. Giảng viên đầu ngành Đạo diễn sân khấu</h5>
+                                    <ul class="member">
+                                        <li>NSƯT.ThS.Trần Đức Hải</li>
+                                        <li>NSƯT.ThS.Hoàng Minh Tâm</li>
+                                        <li>NSND.CN.Đặng Hùng</li>
+                                        <li>NSND.CN.Hoàng Thị Thảo</li>
+                                        <li>ThS.Thiều Thị Hạnh Nguyên</li>
+                                        <li>NSƯT.CN.Lê Đại Chức</li>
+                                        <li>NSND.CN.Nguyễn Thế Hùng</li>
+                                    </ul>
+                                </div>
+                                <div class="list">
+                                    <h5 class="title-sub">4. Giảng viên đầu ngành Quay phim</h5>
+                                    <ul class="member">
+                                        <li>NSƯT.ThS.Trần Đức Hải</li>
+                                        <li>NSƯT.ThS.Hoàng Minh Tâm</li>
+                                        <li>NSND.CN.Đặng Hùng</li>
+                                        <li>NSND.CN.Hoàng Thị Thảo</li>
+                                        <li>ThS.Thiều Thị Hạnh Nguyên</li>
+                                        <li>NSƯT.CN.Lê Đại Chức</li>
+                                        <li>NSND.CN.Nguyễn Thế Hùng</li>
+                                        <li>CN.Trần Hữu Nghĩa</li>
+                                    </ul>
+                                </div>
+                                <div class="list">
+                                    <h5 class="title-sub">5. Giảng viên đầu ngành Thiết kế thời trang, May Thời trang</h5>
+                                    <ul class="member">
+                                        <li>NTK.CN.Nguyễn Việt Hùng</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                        <div class="item">
+                            <div class="thumb">
+                                <div class="tRes_75">
+                                    <img src="assets/images/team/5.jpg" alt="KHOA MỸ THUẬT CÔNG NGHIỆP">
+                                </div>
+                            </div>
+                            <h4 class="title">KHOA CƠ BẢN</h4>
+                            <a id="" href="#" data-title="KHOA CƠ BẢN" data-src="assets/images/team/5.jpg" class="btn btn-primary" data-dismiss="modal" data-target="#myModal">Chi tiết </a>
+                            <div class="hidden member">
+                                <div class="list">
+                                    <ul class="member">
+                                        <li>NGƯT.PGS.TS.Hoàng Tâm Sơn</li>
+                                        <li>PGS.NGND.TS.Nguyễn Thế Hữu</li>
+                                        <li>TS.Dương Đức Hưng</li>
+                                        <li>TS.Đinh Xuân Lý</li>
+                                        <li>TS.Đỗ Thanh Thủy</li>
+                                        <li>ThS.Nguyễn Quốc Hùng</li>
+                                        <li>ThS.Nguyễn Văn Huyên</li>
+                                        <li>ThS.Nguyễn Anh Tuấn</li>
+                                        <li>ThS.Nguyễn Kim Loan</li>
+                                        <li>ThS.Nguyễn Văn Khỏe</li>
+                                        <li>ThS.Trần Thị Phương Thảo</li>
+                                        <li>CN.Hồ Quang Đạt</li>
+                                        <li>CN.Trần Tuấn Cảnh</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                        <div class="item">
+                            <div class="thumb">
+                                <div class="tRes_75">
+                                    <img src="assets/images/team/6.jpg" alt="KHOA CÔNG NGHỆ THÔNG TIN">
+                                </div>
+                            </div>
+                            <h4 class="title">KHOA CÔNG NGHỆ THÔNG TIN</h4>
+                            <a id="" href="#" data-title="KHOA CÔNG NGHỆ THÔNG TIN" data-src="assets/images/team/6.jpg" class="btn btn-primary" data-dismiss="modal" data-target="#myModal">Chi tiết </a>
+                            <div class="hidden member">
+                                <div class="list">
+                                    <h5 class="title-sub">1. Giảng viên đầu ngành Tin học ứng dụng</h5>
+                                    <ul class="member">
+                                        <li>ThS.Phạm Min</li>
+                                        <li>ThS.Bùi Anh Tuấn</li>
+                                        <li>ThS.Đinh Văn Phụng</li>
+                                        <li>ThS.Nguyễn Tâm Thanh Tùng</li>
+                                    </ul>
+                                </div>
+                                <div class="list">
+                                    <h5 class="title-sub">2. Giảng viên đầu ngành Quản trị mạng máy tính</h5>
+                                    <ul class="member">
+                                        <li>ThS.Nguyễn Ngọc Thanh</li>
+                                        <li>CN.Phan Thế Nhân</li>
+                                        <li>CN.Trần Bảo Vân</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+                        <a href="#" class="close" data-dismiss="modal"><i class="icon icon-close"></i></a>
+                    </div>
+                    <div class="modal-body" id='modal-body'>
+                        <div class="thumb">
+                            <div class="tRes_75">
+                                <img id="img" src="" width="360" height="240">
+                            </div>
+                        </div>
+                        <h4 class="title"></h4>
+                        <div class="text">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- program -->
+        <section id="program" class="section program bg-gradient">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 sec-title">
+                        <h2 class="text-center">CHƯƠNG TRÌNH ĐÀO TẠO</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="item">
+                            <h4 class="title">ĐẠI HỌC <span>(dự kiến)</span> gồm:</h4>
+                            <div class="desc">Đại học 4 năm 8 học kỳ</div>
+                            <div class="panel-group department" id="accordion-0_0">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion-0_0" href="#collapse-0_0">
+                                                Nhóm ngành Du lịch
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse-0_0" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <div class="stage">
+                                                <!-- <div class="title">Nhóm ngành Du lịch</div> -->
+                                                <ul class="listing">
+                                                    <li>
+                                                        Quản trị khách sạn
+                                                    </li>
+                                                    <li>
+                                                        Du lịch
+                                                    </li>
+                                                    <li>
+                                                        Quản trị dịch vụ du lịch và lữ hành
+                                                    </li>
+                                                    <li>
+                                                        Quản trị nhà hàng và dịch vụ ăn uống
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- /panel-group -->
+                            <div class="panel-group department" id="accordion-0_1">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion-0_1" href="#collapse-0_1">
+                                                Nhóm ngành Kinh tế
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse-0_1" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <div class="stage">
+                                                <!-- <div class="title">Nhóm ngành Kinh tế</div> -->
+                                                <ul class="listing">
+                                                    <li>
+                                                        Quản trị kinh doanh
+                                                    </li>
+                                                    <li>
+                                                        Tài chính ngân hàng
+                                                    </li>
+                                                    <li>
+                                                        Kế toán
+                                                    </li>
+                                                    <li>
+                                                        Quan hệ công chúng
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- /panel-group -->
+                            <div class="panel-group department" id="accordion-0_2">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion-0_2" href="#collapse-0_2">
+                                                Nhóm ngành Ngoại ngữ
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse-0_2" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <div class="stage">
+                                                <!-- <div class="title">Nhóm ngành Ngoại ngữ</div> -->
+                                                <ul class="listing">
+                                                    <li>
+                                                        Ngôn ngữ Anh
+                                                    </li>
+                                                    <li>
+                                                        Đông phương học (Tiếng Hàn, Tiếng Nhật, Tiếng Trung)
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- /panel-group -->
+                            <div class="panel-group department" id="accordion-0_3">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion-0_3" href="#collapse-0_3">
+                                                Nhóm ngành Nghệ thuật
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse-0_3" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <div class="stage">
+                                                <!-- <div class="title">Nhóm ngành Nghệ thuật</div> -->
+                                                <ul class="listing">
+                                                    <li>
+                                                        Diễn viên kịch điện ảnh – truyền hình
+                                                    </li>
+                                                    <li>
+                                                        Đạo diễn
+                                                    </li>
+                                                    <li>
+                                                        Thanh nhạc
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- /panel-group -->
+                            <div class="panel-group department" id="accordion-0_4">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion-0_4" href="#collapse-0_4">
+                                                Nhóm ngành Mỹ thuật công nghiệp
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse-0_4" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <div class="stage">
+                                                <!-- <div class="title">Nhóm ngành Mỹ thuật công nghiệp</div> -->
+                                                <ul class="listing">
+                                                    <li>
+                                                        Thiết kế đồ họa
+                                                    </li>
+                                                    <li>
+                                                        Thiết kế thời trang
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- /panel-group -->
+                        </div><!-- /item -->
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="item">
+                            <h4 class="title">CAO ĐẲNG gồm:</h4>
+                            <div class="desc">Cao đẳng 2 năm 4 học kỳ <br> Cao đẳng 3 năm 6 học kỳ</div>
+                            <div class="panel-group department" id="accordion-1_0">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion-1_0" href="#collapse-1_0">
+                                                Nhóm ngành Du lịch
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse-1_0" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <div class="stage">
+                                                <!-- <div class="title">Nhóm ngành Du lịch</div> -->
+                                                <ul class="listing">
+                                                    <li>
+                                                        Quản trị lữ hành
+                                                    </li>
+                                                    <li>
+                                                        Quản trị dịch vụ du lịch và lữ hành
+                                                    </li>
+                                                    <li>
+                                                        Quản trị khách sạn (Quản trị khách sạn, Quản trị nhà hàng, Quản trị khu resort, Kỹ thuật pha chế đồ uống, Kỹ thuật chế biến món ăn)
+                                                    </li>
+                                                    <li>
+                                                        Hướng dẫn du lịch (Hướng dẫn du lịch, Việt Nam học)
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- /panel-group -->
+                            <div class="panel-group department" id="accordion-1_1">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion-1_1" href="#collapse-1_1">
+                                                Nhóm ngành Kinh tế
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse-1_1" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <div class="stage">
+                                                <!-- <div class="title">Nhóm ngành Kinh tế</div> -->
+                                                <ul class="listing">
+                                                    <li>
+                                                        Tài chính ngân hàng (Tài chính ngân hàng, Tài chính doanh nghiệp)
+                                                    </li>
+                                                    <li>
+                                                        Kế toán
+                                                    </li>
+                                                    <li>
+                                                        Kế toán doanh nghiệp
+                                                    </li>
+                                                    <li>
+                                                        Thư ký
+                                                    </li>
+                                                    <li>
+                                                        Thư ký văn phòng
+                                                    </li>
+                                                    <li>
+                                                        Phát hành xuất bản phẩm
+                                                    </li>
+                                                    <li>
+                                                        Quản trị kinh doanh (Quản trị kinh doanh, Quản trị doanh nghiệp vừa và nhỏ, Quản trị nhân sự, Xuất nhập khẩu, Marketing)
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- /panel-group -->
+                            <div class="panel-group department" id="accordion-1_2">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion-1_2" href="#collapse-1_2">
+                                                Nhóm Ngành Ngoại ngữ
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse-1_2" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <div class="stage">
+                                                <!-- <div class="title">Nhóm Ngành Ngoại ngữ</div> -->
+                                                <ul class="listing">
+                                                    <li>
+                                                        Tiếng Nhật (Tiếng Nhật thương mại, Tiếng Nhật du lịch)
+                                                    </li>
+                                                    <li>
+                                                        Tiếng Hàn Quốc (Tiếng Hàn Quốc, Tiếng Hàn du lịch)
+                                                    </li>
+                                                    <li>
+                                                        Tiếng Anh (Tiếng Trung biên phiên dịch, Tiếng Trung du lịch)
+                                                    </li>
+                                                    <li>
+                                                        Tiếng Trung Quốc
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- /panel-group -->
+                            <div class="panel-group department" id="accordion-1_3">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion-1_3" href="#collapse-1_3">
+                                                Nhóm ngành Nghệ thuật
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse-1_3" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <div class="stage">
+                                                <!-- <div class="title">Nhóm ngành Nghệ thuật</div> -->
+                                                <ul class="listing">
+                                                    <li>
+                                                        Thanh nhạcc (Thanh nhạc, Nhạc cụ phương Tây, Quản lý văn hóa)
+                                                    </li>
+                                                    <li>
+                                                        Diễn viên kịch – điện ảnh
+                                                    </li>
+                                                    <li>
+                                                        Quay phim (Thanh nhạc, Nhạc cụ phương Tây, Quản lý văn hóa)
+                                                    </li>
+                                                    <li>
+                                                        Đạo diễn sân khấu
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- /panel-group -->
+                            <div class="panel-group department" id="accordion-1_4">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion-1_4" href="#collapse-1_4">
+                                                Nhóm ngành Mỹ thuật công nghiệp
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse-1_4" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <div class="stage">
+                                                <!-- <div class="title">Nhóm ngành Mỹ thuật công nghiệp</div> -->
+                                                <ul class="listing">
+                                                    <li>
+                                                        Thiết kế đồ họa (Thiết kế đồ họa, Quảng cáo, Đồ họa)
+                                                    </li>
+                                                    <li>
+                                                        Thiết kế thời trang
+                                                    </li>
+                                                    <li>
+                                                        May thời trang
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- /panel-group -->
+                            <div class="panel-group department" id="accordion-1_5">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion-1_5" href="#collapse-1_5">
+                                                Nhóm Ngành Công nghệ thông tin
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse-1_5" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <div class="stage">
+                                                <!-- <div class="title">Nhóm Ngành Công nghệ thông tin</div> -->
+                                                <ul class="listing">
+                                                    <li>
+                                                        Quản trị mạng máy tính
+                                                    </li>
+                                                    <li>
+                                                        Tin học ứng dụng
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- /panel-group -->
+                        </div><!-- /item -->
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="item">
+                            <h4 class="title">TRUNG CẤP gồm:</h4>
+                            <div class="desc">Trung cấp 2 năm <br> Trung cấp 2 năm 3 tháng</div>
+                            <div class="panel-group department" id="accordion-2_0">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion-2_0" href="#collapse-2_0">
+                                                Nhóm ngành Du lịch
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse-2_0" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <div class="stage">
+                                                <!-- <div class="title">Nhóm ngành Du lịch</div> -->
+                                                <ul class="listing">
+                                                    <li>
+                                                        Quản lý văn hóa
+                                                    </li>
+                                                    <li>
+                                                        Hướng dẫn du lịch
+                                                    </li>
+                                                    <li>
+                                                        Quản trị lữ hành
+                                                    </li>
+                                                    <li>
+                                                        Nghiệp vụ nhà hàng, khách sạn
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- /panel-group -->
+                            <div class="panel-group department" id="accordion-2_1">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion-2_1" href="#collapse-2_1">
+                                                Nhóm ngành Kinh tế
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse-2_1" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <div class="stage">
+                                                <!-- <div class="title">Nhóm ngành Kinh tế</div> -->
+                                                <ul class="listing">
+                                                    <li>
+                                                        Tài chính – Ngân hàng
+                                                    </li>
+                                                    <li>
+                                                        Tài chính doanh nghiệp
+                                                    </li>
+                                                    <li>
+                                                        Thư ký văn phòng
+                                                    </li>
+                                                    <li>
+                                                        Phát hành xuất bản phẩm
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- /panel-group -->
+                            <div class="panel-group department" id="accordion-2_2">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion-2_2" href="#collapse-2_2">
+                                                Nhóm ngành Nghệ thuật
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse-2_2" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <div class="stage">
+                                                <!-- <div class="title">Nhóm ngành Nghệ thuật</div> -->
+                                                <ul class="listing">
+                                                    <li>
+                                                        Thanh nhạc
+                                                    </li>
+                                                    <li>
+                                                        Diễn viên kịch – điện ảnh
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- /panel-group -->
+                            <div class="panel-group department" id="accordion-2_3">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion-2_3" href="#collapse-2_3">
+                                                Nhóm ngành Mỹ thuật công nghiệp
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse-2_3" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <div class="stage">
+                                                <!-- <div class="title">Nhóm ngành Mỹ thuật công nghiệp</div> -->
+                                                <ul class="listing">
+                                                    <li>
+                                                        Thiết kế thời trang
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- /panel-group -->
+                        </div><!-- /item -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- career -->
+        <section id="career" class="section career">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 sec-title">
+                        <h2 class="">TRIỂN VỌNG NGHỀ NGHIỆP</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="item followHeight">
+                        <div class="col-xs-12 col-sm-6 col-sm-push-6 equal2">
+                            <div class="thumb">
+                                <div class="tRes_75">
+                                    <img src="assets/images/career/1.jpg" alt="Cam kết đảm bảo 100% việc làm">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-sm-pull-6">
+                            <div class="display-table equal1">
+                                <div class="text table-cell">
+                                    <h4 class="title">Cam kết đảm bảo 100% việc làm</h4>
+                                    <div class="desc">
+                                        <p>SAIGONACT cam kết đảm bảo 100% việc làm cho sinh viên khi ra trường với mức lương khởi điểm từ 7.000.000 đồng trở lên. Trường đã liên kết với hơn 1.000 doanh nghiệp, nhà hát, hãng phim, các sân khấu nghệ thuật, công ty lữ hành, nhà hàng khách sạn.</p>
+                                        <p>Đặc biệt, Trường có hệ thống khách sạn, nhà hàng, công ty lữ hành, sân khấu biểu diễn, công ty điện ảnh… Tất cả đều giúp cho việc học tập gắn với thực hành, doanh nghiệp và việc làm.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="item followHeight">
+                        <div class="col-xs-12 col-sm-6 equal2">
+                            <div class="thumb">
+                                <div class="tRes_75">
+                                    <img src="assets/images/career/2.jpg" alt="Hợp tác Quốc tế">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <div class="display-table equal1">
+                                <div class="text table-cell">
+                                    <h4 class="title">Hợp tác Quốc tế</h4>
+                                    <div class="desc">
+                                        <p>SAIGONACT đã hợp tác với rất nhiều trường đại học, cao đẳng, cơ sở đào tạo, viện nghiên cứu và các tổ chức quốc tế ở nhiều nước trên thế giới như: Hàn Quốc, Nhật Bản, Pháp, Mỹ, Malaysia, Thái Lan, Ý,...để thực hiện việc nhập khẩu chương trình, liên kết đào tạo, trao đổi giảng viên, trao đổi sinh viên theo chương trình 1+2, 1+3, 2+1, 2+2, 3+1. Trường còn liên tục tham gia tổ chức và đồng tổ chức các Hội thảo mang tầm cỡ quốc gia và quốc tế.<p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- infrastructure -->
+        <section id="infra" class="section infra">
+            <div class="container-fluid">
+                <div class="row grid-space-10 followHeight">
+                    <div class="col-xs-12   col-sm-5 ">
+                        <div class="item">
+                            <div class="thumb">
+                                <div class=" tRes_39">
+                                    <img src="assets/images/infra/1.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12   col-sm-2 ">
+                        <div class="item">
+                            <div class="thumb">
+                                <div class=" tRes_100 ">
+                                    <img src="assets/images/infra/2.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12   col-sm-5 ">
+                        <div class="item">
+                            <div class="thumb">
+                                <div class=" tRes_39">
+                                    <img src="assets/images/infra/3.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row grid-space-10 followHeightAfter">
+                    <!-- <div class=""> -->
+                    <div class="col-xs-12 col-sm-9 equal2After">
+                        <!-- 4/12 -->
+                        <div class="row grid-space-10 followHeight">
+                            <div class="col-xs-12 col-sm-4">
+                                <div class="item ">
+                                    <div class="thumb ">
+                                        <div class="tRes_120 equal1">
+                                            <img src="assets/images/infra/4.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 8/12 -->
+                            <div class="col-xs-12 col-sm-8 equal2">
+                                <div class="sec-title">
+                                    <h2 class="title">CƠ SỞ VẬT CHẤT</h2>
+                                    <div class="desc">Với có quỹ đất hơn 9,1ha, tổng diện tích xây dựng hơn 40.000m2 gồm: 200 phòng học lý thuyết, 50 phòng thực hành chức năng; hệ thống nhà hàng, khách sạn, công ty lữ hành, công ty phim, trung tâm hội nghị tiệc cưới, trung tâm biểu diễn… giúp sinh viên thực hành và làm việc ngay tại trường. Khu ký túc xá với hơn 300 chỗ cho Tân sinh viên nhập học trong năm 2020 – 2021.<br>Hệ thống Thư viện gần 15.000 đầu sách, máy tính được kết nối internet; hệ thống học liệu điện tử kết nối dữ liệu với nhiều trường đại học trong nước và ngoài nước.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row grid-space-10 line-3">
+                            <div class="col-xs-12 col-sm-6">
+                                <div class="item">
+                                    <div class="thumb">
+                                        <div class="tRes_55">
+                                            <img src="assets/images/infra/5.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6">
+                                <div class="item">
+                                    <div class="thumb">
+                                        <div class="tRes_55">
+                                            <img src="assets/images/infra/6.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 ">
+                        <div class="item ">
+                            <div class="thumb big-right equal1After">
+                                <div class="tRes_202 ">
+                                    <img src="assets/images/infra/7.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- </div> -->
+                </div><!-- row grid-space-10 -->
+            </div>
+        </section>
+        <!-- scholarship -->
+        <section id="scholarship" class="section scholarship">
+            <div class="container-fluid">
+                <div class="row grid-space-0">
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h2 class="title">HỌC BỔNG</h2>
+                            </div>
+                            <div class="col-xs-12 col-sm-10">
+                                <div class="thumb">
+                                    <div class="tRes_75">
+                                        <img src="assets/images/scholarship/1.jpg" alt="Home" width="540" height="360">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="col-xs-12 col-sm-12 col-md-10">
+                            <div class="article">
+                                <div class="item type">
+                                    <h5 class="title">Bậc 02 năm:
+                                        <span class="desc">(căn cứ kết quả thi tuyển đầu vào đối với sinh viên nhận học bổng, có 03 loại)</span>
+                                    </h5>
+                                    <ul class="listing-icon listing-chevron-right">
+                                        <li>
+                                            <strong>25 Tân sinh viên top thứ nhất:</strong>
+                                            <span>Miễn phí 100% học bổng năm nhất.</span>
+                                        </li>
+                                        <li>
+                                            <strong>25 Tân sinh viên top thứ hai:</strong>
+                                            <span>Miễn phí 50% học bổng năm nhất.</span>
+                                        </li>
+                                        <li>
+                                            <strong>25 Tân sinh viên top thứ ba:</strong>
+                                            <span>Miễn phí 25% học bổng năm nhất.</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="item type">
+                                    <h5 class="title">Bậc 03 năm
+                                    </h5>
+                                    <ul class="listing-icon listing-chevron-right">
+                                        <li>
+                                            <strong>Học bổng tương đương 100% học phí toàn khóa học:</strong>
+                                            <ul class="listing">
+                                                <li>Đối với thí sinh thi tốt nghiệp THPT từ 24 điểm trở lên đối với tổ hợp 3 môn xét tuyển.</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <strong>Học bổng tương đương 50% học phí toàn khóa học:</strong>
+                                            <ul class="listing">
+                                                <li>Đối với thí sinh thi tốt nghiệp THPT từ 22 đến dưới 24 điểm trở lên đối với tổ hợp 3 môn xét tuyển.</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <ul class="listing-icon listing-chevron-right">
+                                        <li>
+                                            <strong>Học bổng 02 học kỳ:</strong>
+                                            <ul class="listing">
+                                                <li>Tân sinh viên có chứng chỉ Toeic đạt 500 điểm hoặc IELTS 5.0 điểm trở lên.</li>
+                                                <li>Tân sinh viên đạt giải trong các cuộc thi Văn, Thể, Mỹ cấp tỉnh trở lên (năm học 2020 – 2021).</li>
+                                                <li>Tân sinh viên có hoàn cảnh khó khăn đạt thành tích cao trong học tập (học sinh giỏi lớp 12 năm học 2020 – 2021) và đạt điểm trung bình từ 8.5 điểm trở lên.</li>
+                                                <li>Tân sinh viên là cán bộ, nhân viên, giảng viên hoặc là con, anh, chị, em (ruột) của cán bộ, nhân viên, giảng viên của Trường.</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <strong>Học bổng 01 học kỳ:</strong>
+                                            <ul class="listing">
+                                                <li>Tân sinh viên có chứng chỉ quốc tế TOEIC đạt 350 điểm hoặc IELTS 3.5 điểm </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <strong>Miễn học phí ½ học kỳ:</strong>
+                                            <ul class="listing">
+                                                <li>Tân sinh viên có anh, chị, em (ruột) đang theo học tại SAIGONACT; Tân sinh viên có hộ khẩu thường trú trên địa bàn lân cận SAIGONACT: Quận 12, Quận Gò Vấp, Quận Tân Phú, Quận Bình Tân, Huyện Hóc Môn và Huyện Củ Chi.</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="item type">
+                                    <h5 class="title">Lưu ý:
+                                    </h5>
+                                    <ul class="listing-icon listing-chevron-right">
+                                        <li>
+                                            <strong>Nhà trường sẽ nhận hồ sơ và xét học bổng ngay khi Tân sinh viên làm thủ tục nhập học đầu khoá.</strong>
+                                        </li>
+                                        <li>
+                                            <strong>Khi xét học bổng đạt, các em sẽ nhận quyết định nhận học bổng</strong>
+                                        </li>
+                                        <li>
+                                            <strong>Học bổng sẽ được trả vào năm cuối cùng trước khi sinh viên tốt nghiệp</strong>
+                                        </li>
+                                        <li>
+                                            <strong>Trường hợp Tân sinh viên cùng lúc thoả được nhiều điều kiện về học bổng sẽ được ưu tiên xét nhận học bổng có giá trị cao nhất.</strong>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- <a href="#" class="link">Xem thêm <i class="icon icon-chevron-down"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fee -->
+        <section id="fee" class="section fee bg-gradient">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-sm-push-6">
+                        <div class="row">
+                            <div class="col-xs-12 sec-title">
+                                <h2 class="title">HỌC PHÍ NĂM HỌC <br>2020 - 2021</h2>
+                                <div class="desc">(Cam kết không thay đổi trong suốt khoá học)</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-sm-pull-6">
+                        <div class="fee-wrapper">
+                            <div class="fee-inner">
+                                <!-- bac: level -->
+                                <div class="panel-group fee-item" id="accordion-fee-_0">
+                                    <div class="panel panel-secondary">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a class="h3 title" data-toggle="collapse" data-parent="#accordion-fee-_0" href="#collapse-fee-_0">BẬC CAO ĐẲNG</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapse-fee-_0" class="panel-collapse collapse in">
+                                            <div class="panel-body">
+                                                <ul class="list">
+                                                    <li>
+                                                        <strong>Hệ 3 năm khóa 15:</strong>
+                                                        <ul class="listing-border-bottom">
+                                                            <li>
+                                                                <span>Ngành thanh nhạc, diễn viên</span>
+                                                                <span class="price">12.000.000đ/HK</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Ngành Mỹ thuật công nghiệp:</span>
+                                                                <span class="price">11.000.000đ/HK</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Các ngành khác:</span>
+                                                                <span class="price">9.500.000đ/HK</span>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <strong>Hệ 2 năm khóa 15:</strong>
+                                                        <ul class="listing-border-bottom">
+                                                            <li>
+                                                                <span>Ngành thanh nhạc, diễn viên</span>
+                                                                <span class="price">15.000.000đ/HK</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Ngành Mỹ thuật công nghiệp:</span>
+                                                                <span class="price">13.500.000đ/HK</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Các ngành khác:</span>
+                                                                <span class="price">11.250.000đ/HK</span>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /panel-group -->
+                                <div class="panel-group fee-item" id="accordion-fee-_1">
+                                    <div class="panel panel-secondary">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a class="h3 title" data-toggle="collapse" data-parent="#accordion-fee-_1" href="#collapse-fee-_1">BẬC TRUNG CẤP</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapse-fee-_1" class="panel-collapse collapse in">
+                                            <div class="panel-body">
+                                                <ul class="list">
+                                                    <li>
+                                                        <strong>khóa 15:</strong>
+                                                        <ul class="listing-border-bottom">
+                                                            <li>
+                                                                <span>Ngành thanh nhạc, diễn viên</span>
+                                                                <span class="price">6.000.000đ/HK</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Ngành Mỹ thuật công nghiệp:</span>
+                                                                <span class="price">6.000.000đ/HK</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Các ngành khác:</span>
+                                                                <span class="price">5.500.000đ/HK</span>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /panel-group -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- schedule -->
+        <section id="schedule" class="section schedule">
+            <div class="container">
+                <div class="row grid-space-0">
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="thumb">
+                            <div class="tRes_100">
+                                <img src="assets/images/bg/schedule-1.png" alt="Home">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-8 bg-decor-right">
+                        <div class="text">
+                            <!-- bac: level -->
+                            <div class="item">
+                                <h4 class="title">THỜI GIAN TUYỂN SINH
+                                </h4>
+                                <ul class="listing-no-icon">
+                                    <li>
+                                        <span class="content">Tuyển sinh liên tục hằng tháng từ ngày <strong>01/03/2020</strong></span>
+                                    </li>
+                                    <li>
+                                        <span class="content">Xét tuyển/thi tuyển từ ngày <strong>01</strong> đến ngày <strong>25</strong> hằng tháng</span>
+                                    </li>
+                                    <li>
+                                        <span class="content">Thông báo kết quả xét tuyển/thi tuyển; từ ngày <strong>25</strong> đến ngày <strong>28</strong> hằng tháng</span>
+                                    </li>
+                                    <li>
+                                        <span class="content">Nhập học từ ngày <strong>15</strong> đến <strong>28</strong> hằng tháng</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="item">
+                                <h4 class="title">PHƯƠNG THỨC TUYỂN SINH
+                                    <span class="desc">(Hệ 2 năm và 3 năm)</span>
+                                </h4>
+                                <ul class="listing-no-icon">
+                                    <li>
+                                        <strong>Xét tuyển:</strong>
+                                        <span class="content">Đối với nhóm ngành Du lịch, Kinh tế, Ngoại ngữ, Công nghệ thông tin</span>
+                                    </li>
+                                    <li>
+                                        <strong>Thi tuyển:</strong>
+                                        <span class="content">Đối với nhóm ngành Nghệ thuật, Mỹ thuật công nghiệp; và thí sinh hệ 2 năm muốn nhận học bổng 100%, 50%, 25% của Nhà trường</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="assets/js/app.js"></script>
+    <!-- <script src="assets/js/theme.js"></script> -->
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-5 col-1">
+                    <h5 class="title">Trung tâm Tuyển sinh - Truyền thông</h5>
+                    <div class="address">
+                        <div class="item">
+                            <strong>Địa chỉ</strong>:70 Đường Tân Thới Nhất 8, Khu phố 5, Phường Tân Thới Nhất, Quận 12, Tp.HCM</div>
+                        <div class="item phone">
+                            <strong>Mobile:</strong>
+                            <div class="number">
+                                <a href="tel:(028) 3883 1793">(028) 3883 1793</a><br>
+                                <a href="tel:(028) 3883 1796">(028) 3883 1796</a><br>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <strong>Hotline:</strong>
+                            <a href="tel:+0914 411 012">0914 411 012</a>
+                        </div>
+                        <div class="item">
+                            <strong>Email:</strong>
+                            <a href="#">bantuyensinh@daihocdulich.edu.vn</a>
+                        </div>
+                        <div class="item">
+                            <strong>Fanpage:</strong>
+                            <a href="https://www.facebook.com/daihocdulichsaigon">https://www.facebook.com/daihocdulichsaigon</a>
+                        </div>
+                    </div>
+                    <ul class="social">
+                        <li><a href="http://daihocdulich.edu.vn/"><i class="icon icon-web-outline"></i></a></li>
+                        <li><a href="https://www.facebook.com/daihocdulichsaigon"><i class="icon icon-facebook-outline"></i></a></li>
+                        <li><a href="https://www.youtube.com/user/saigonactedu"><i class="icon icon-youtube-outline"></i></a></li>
+                        <li><a href="mailto:info@daihocdulich.edu.vn"><i class="icon icon-mail-outline"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-7 col-2">
+                    <div id="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.689534727826!2d106.61180311480139!3d10.835054192281756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752bccf94e353d%3A0xfa8ac0e6f1ed4de9!2zNzAgxJDGsOG7nW5nIFTDom4gVGjhu5tpIE5o4bqldCA4LCBUw6JuIFRo4bubaSBOaOG6pXQsIFF14bqtbiAxMiwgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1sen!2s!4v1558409128857!5m2!1sen!2s" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 ">
+                    <p>Bản quyền thuộc về BQLĐATL Trường Đại học Du lịch Sài Gòn</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="back-top" class="">
+        <i class="icon icon-chevron-up"></i>
+        <!-- <img src="assets/images/btn-back-top.svg"> -->
+    </div>
+</body>
+<script>
+$ = jQuery;
+
+function redirectToThankYou(content, success) {
+    if (success) {
+        $('#result').html('<div id="success-msg" class="alert alert-success"><strong>Success!</strong> Your registration has already been sent successfully</div>');
+    } else {
+        $('#result').html('<div id="error-msg" class="alert alert-danger"><strong>Opp!</strong> Some thing went wrong</div>');
+    }
+}
+</script>
+<!-- <script src='https://mailvas.mangoads.com.vn/client.js?token=$2y$10$K0cWYd7Dptm60pY7hkzL/u4KOncoll2UC2rQBLHnIonlfFWdhQWmu&target=form-register&v=1.1&callback=redirectToThankYou' type='application/javascript'></script> -->
+<script src='https://mangosteen.mangoads.vn/client.js?token=$2y$10$/oObN66KdjKWipz7RsbLQuM0YmIBZe43vFw6b3YRj3ljmo3xlzXEy&target=form-register&v=1.1&callback=redirectToThankYou' type='application/javascript'></script>
+
+</html>

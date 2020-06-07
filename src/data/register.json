@@ -1,0 +1,29 @@
+{
+    "title": "ĐĂNG KÝ XÉT TUYỂN TRỰC TUYẾN",
+    "desc": "<strong>Điều kiện nhập học</strong>: Chỉ cần tốt nghiệp THPT (hoặc tương đương)<br>Vui lòng điền đầy đủ các thông tin bên dưới (lưu ý nhập tiếng Việt có dấu)",
+    "sections":[
+        {
+            "title": "Thông tin thí sinh",
+            "fields":[
+                {
+                    "title": "Họ và tên*",
+                    "placeholder": "Họ và tên",
+                    "type":"text"
+                },
+                {
+                    "title": "Ngày sinh (tháng/ngày/năm)",
+                    "placeholder": "mm/dd/yy",
+                    "type":"text"
+                },
+                {
+                    "title": "Ngày sinh (tháng/ngày/năm)",
+                    "placeholder": "mm/dd/yy",
+                    "type":"text"
+                }
+            ]
+        },
+        {
+            "title": "Thông tin xét tuyển"
+        }
+    ]
+}

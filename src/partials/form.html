@@ -1,0 +1,86 @@
+<form id="form-register" class="form-register mangosteen" method="POST">
+  <div class="row">
+         <div class="col-xs-12 col-sm-12">
+           <h6 class="title">{{register.sections.[0].title}}</h6>
+        </div>
+  </div>
+  <div class="row">
+        <div class="col-sm-4">
+          <label  class="rowblock"><span class="title">Họ và tên*</span> <input type="text" class="input" placeholder="Họ và tên" name="fullname" id="fullname" required></label>
+        </div>
+        <div class="col-sm-4">
+          <label  class="rowblock"><span class="title">Ngày sinh (tháng/ngày/năm)</span> <input  name="dob" id="dob"  type="date" class="input" placeholder="mm/dd/yy" required></label>
+        </div>
+        <div class="col-sm-4">
+           <label  class="rowblock"><span class="title">Giới tính*</span>
+                <label><input type="radio"  name="radioName" value="Male"checked>Nam</label>
+                <label><input type="radio" name="radioName" value="Female">Nữ</label>
+             
+              <input type="hidden" name="gen" value="Male">
+           </label>
+        </div>
+        <div class="col-sm-4">
+           <label  class="rowblock"><span class="title">Nơi sinh*</span> <input name="city" id="city"  type="text" class="input" placeholder="Tỉnh / Thành phố" required></label>
+        </div>
+        <div class="col-sm-4">
+           <label  class="rowblock"><span class="title">Điện thoại*</span> <input name="phone" id="phone"  type="tel" class="input" placeholder="Số điện thoại liên lạc" required pattern="^[0-9]{10,11}$"></label>
+        </div>
+        <div class="col-sm-4">
+           <label  class="rowblock"><span class="title">Email</span> <input name="email" id="email"  type="email" class="input" placeholder="Địa chỉ email"></label>
+        </div>
+
+         <div class="col-sm-12">
+           <label  class="rowblock"><span class="title">Địa chỉ*</span> <input name="address" id="address"  type="text" class="input" placeholder="Số nhà, đường/tổ dân phố, quận/huyện/thị xã, tỉnh/thành phố" required></label>
+        </div>
+
+         <div class="col-sm-4">
+           <label  class="rowblock"><span class="title">Tên trường THPT (năm lớp 12)</span> <input name="hightschool" id="hightschool"  type="text" class="input" placeholder="Tên trường THPT (năm lớp 12)" ></label>
+        </div>
+
+         <div class="col-sm-4">
+           <label  class="rowblock"><span class="title">Tỉnh / Thành phố</span> <input name="hightschoolcity" id="hightschoolcity"  type="text" class="input" placeholder="Tỉnh/Thành phố trường THPT"></label>
+        </div>
+  </div>
+    <div class="row">
+           <div class="col-xs-12">
+             <h6 class="title">{{register.sections.[1].title}}</h6>
+          </div>
+    </div>
+    <div class="row">
+      
+        
+         <div class="col-sm-4">
+          <label  class="rowblock"><span class="title">Bậc học</span>
+            <select class="select2-single" name="selLevel" id="selLevel" data-placeholder="Bậc học*">
+              {{#each register-levels}}
+              <option value="{{@index}}">{{this.title}}</option>
+              {{/each}}
+            </select>
+            <input type="hidden" name="level" value="{{register-levels.[0].title}}">
+          </label>
+          </div>
+        <div class="col-sm-4">
+          <label  class="rowblock"><span class="title">Ngành đăng ký</span>
+          <select id="selDep"></select>
+          </label>
+          <!-- <input id="selDep" type="hidden" style="width:300px"/> -->
+         <!--  <input id="selDep" type="text" style="width: 200px !important;height: 35px !important;opacity: 1;visibility: visible;position: absolute;z-index: 1;clip: unset !important;/* border: 1px solid #ddd !important; */padding-left: 15px !important;top: 35px;left: 18px;" tabindex="-1" class="" aria-hidden="false" value="DL"> -->
+
+          <input type="hidden" name="department" value="{{register-levels.[0].groups.[0].deps.[0]}}">
+        </div>
+
+
+        <div class="col-sm-12">
+           <label  class="rowblock"><span class="title">Địa chỉ nhận giấy báo trúng tuyển*</span> <input id="addressreceiver" name="addressreceiver"   type="text" class="input" placeholder="Số nhà, đường/tổ dân phố, quận/huyện/thị xã, tỉnh/thành phố" required></label>
+        </div>
+  </div>
+   <div class="row">
+        <div class="col-sm-12 mb-50 text-center">
+          <div id="result" class="result">
+            
+          </div>
+         
+          <button class="btn btn-default" type="submit">ĐĂNG KÝ XÉT TUYỂN TRỰC TUYẾN</button>
+        </div>
+    </div>
+</form>

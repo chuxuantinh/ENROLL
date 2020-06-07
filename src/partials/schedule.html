@@ -1,0 +1,39 @@
+<section id="schedule" class="section schedule">
+	<div class="container">
+		<div class="row grid-space-0">
+			<div class="col-xs-12 col-sm-4">
+				<div class="thumb">
+					<div class="tRes_100">
+						<img src="{{root}}assets/images/{{schedule.img}}" alt="{{ this.title }}">
+					</div>
+				</div>
+			</div>
+			 <div class="col-xs-12 col-sm-8 bg-decor-right">
+			 	<div class="text">
+			 		<!-- bac: level -->
+					 {{#each schedule.items}}
+						 <div class="item">
+						 	<h4 class="title">{{this.title}}
+						 		{{#if this.desc}}
+							 	<span class="desc">{{this.desc}}</span>
+							 	{{/if}}
+						 	</h4>
+							<ul class="listing-no-icon">
+						       {{#each this.items}}
+						       	<li>
+						       		{{#if this.title}}
+						       		<strong>{{this.title}}:</strong> 
+						       		{{/if}}
+							       	<span class="content">{{{this.desc}}}</span>
+						       	</li>
+						       {{/each}}
+					       </ul>
+				   		</div>    
+					 {{/each}}
+				</div>
+			 </div>
+			
+				
+		</div>
+	</div>
+</section>

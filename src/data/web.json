@@ -1,0 +1,30 @@
+{
+    "title": "SAIGONACT - Trường Cao đẳng Văn hóa Nghệ thuật và Du lịch Sài Gòn",
+    "h1": "Chào mừng đến với <br> Trường Cao đẳng Văn hóa Nghệ thuật và Du lịch Sài Gòn (SAIGONACT)",
+    "slogans":[
+        "Nhân bản",
+        "Cộng đồng",
+        "Quốc tế"
+    ],
+    "program": "CHƯƠNG TRÌNH ĐÀO TẠO",
+    "footer":{
+        "title": "Trung tâm Tuyển sinh - Truyền thông",
+        "address": "70 Đường Tân Thới Nhất 8, Khu phố 5, Phường Tân Thới Nhất, Quận 12, Tp.HCM",
+        "mobile":{
+            "title" : "Mobile",
+            "items":[
+                {
+                    "number": "(028) 3883 1793"
+                },
+                {
+                    "number": "(028) 3883 1796"
+                }]
+        },
+        "hotline":
+        {
+            "title" : "Hotline",
+            "number": "0914 411 012"
+        },
+        "copyright": "Bản quyền thuộc về BQLĐATL Trường Đại học Du lịch Sài Gòn"
+    }
+}

@@ -1,0 +1,122 @@
+$colorBlack: #0E0E0E;
+$colorGray: #C2C2C2;
+
+// DEFAULT
+// blue
+$color1 : #097D9E;  
+
+// light yellow
+$color2: #FFF8DC;
+// green
+$color3: #748C39;
+
+
+///bg
+// dark green 
+$color4: #3C4821;
+
+
+// light green 
+$color5: #E7EEDC;
+
+
+//dark green 2
+$colorArrow: #2B5027;
+
+// $color4: #9B9B9B;
+$color5: #ec2028;
+$color6: #5497f4;  
+
+$section_pd : 100px; 
+$section_pd_mobile : 30px; 
+
+
+
+//@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700|Roboto:100,300,400,400i,500,700,900&subset=vietnamese');
+// @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700&amp;subset=vietnamese');
+
+// Font 
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800i&display=swap&subset=vietnamese');
+
+@font-face {
+    font-family: 'UTM-Avo';
+    src: url('../fonts/utm-avo/UTM-Avo.ttf'), url('../fonts/utm-avo/UTM-Avo.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'UTM-Avo';
+    src: url('../fonts/utm-avo/UTM-AvoBold.ttf'), url('../fonts/utm-avo/UTM-AvoBold.woff') format('woff');
+    font-weight: bold;
+}
+
+
+
+@font-face {
+ font-family: 'UTM-Avo';
+    src: url('../fonts/utm-avo/UTM-AvoBold_Italic.ttf'), url('../fonts/utm-avo/UTM-AvoBold_Italic.woff') format('woff');
+    font-style: italic;
+}
+@font-face {
+    font-family: 'UTM-Avo';
+    src: url('../fonts/utm-avo/UTM-Avo-Italic.ttf'), url('../fonts/utm-avo/UTM-Avo-Italic.woff') format('woff');
+    font-weight: bold;font-style: italic;
+}
+
+$font1 : 'Open Sans', sans-serif;
+$font2 : 'UTM-Avo', sans-serif;
+
+
+$font-size-base:16px;
+
+$z-index-header: 99;
+
+$assets_img: '../images';
+
+
+.text-uppercase { text-transform: uppercase; }
+
+.plr-0 {padding-left: 0; padding-right: 0;}
+.pt-150  { padding-top: 150px;}
+.pt-100 { padding-top: 100px;}
+.pt-200 { padding-top: 200px;}
+.mb-20  {margin-bottom: 20px !important;}
+.mb-50 {margin-bottom: 50px;}
+.mb-100 {margin-bottom: 100px;}
+
+.tRes_140:before { padding-top: 140% !important; }
+.tRes_130:before { padding-top: 130% !important; }
+
+.tRes_68:before { padding-top: 68%; }
+.tRes_69:before { padding-top: 69%; }
+.tRes_88:before { padding-top: 88%; }
+.tRes_89:before { padding-top: 89%; }
+
+
+.tRes_94:before { padding-top: 94%; }
+.tRes_100:before { padding-top: 100%; }
+.tRes_202:before { padding-top: 202% !important; }
+
+.tRes_120:before { padding-top: 120%!important;  }
+
+
+
+.tss5 {
+  @include transition(all 0.5s ease-in-out);
+}
+
+
+
+@import "variables/header";
+
+@import "variables/menu";
+@import "variables/form";
+@import "variables/slider";
+@import "variables/tabs";
+@import "variables/pagination";   
+@import "variables/thumb";   
+
+
+
+

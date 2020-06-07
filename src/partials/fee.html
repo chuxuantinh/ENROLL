@@ -1,0 +1,64 @@
+<section id="fee" class="section fee bg-gradient">
+	<div class="container">
+		<div class="row">
+			 <div class="col-xs-12 col-sm-6 col-sm-push-6">
+				<div class="row">
+					<div class="col-xs-12 sec-title">
+						<h2 class="title">{{{fee.title}}}</h2>
+						<div class="desc">{{fee.desc}}</div>
+					</div>
+					
+					
+				</div>
+			</div>
+			 <div class="col-xs-12 col-sm-6 col-sm-pull-6">
+			 	<div class="fee-wrapper">
+			 		<div class="fee-inner">
+			 		<!-- bac: level -->
+					 {{#each fee.items}}
+					
+					    <div class="panel-group fee-item"  id="accordion-fee-{{@../key}}_{{@index}}">
+			     	 	  <div class="panel panel-secondary">
+							    <div class="panel-heading">
+							      <h4 class="panel-title">
+							        <a class="h3 title" data-toggle="collapse" data-parent="#accordion-fee-{{@../key}}_{{@index}}" href="#collapse-fee-{{@../key}}_{{@index}}">{{this.title }}</a>
+							      </h4>
+							    </div>
+							    <div id="collapse-fee-{{@../key}}_{{@index}}" class="panel-collapse collapse in">
+							      <div class="panel-body">
+	
+								      <ul class="list">
+								       {{#each this.types}}
+								       	<li>
+								       		<strong>{{this.title}}:</strong> 
+								       	
+	
+								       		{{#if this.items}}
+									       		 <ul class="listing-border-bottom">
+									       		 {{#each this.items}}
+									       			<li>
+									       				<span>{{this.title}}</span>
+									       				<span class="price">{{this.price}}</span>
+									       			</li>
+									       		 {{/each}}
+									       		 </ul>
+								       		{{/if}}
+								       	</li>
+								       {{/each}}
+							       </ul>
+							      	
+							      </div>
+							    </div>
+							  </div>
+				     	</div>
+				     	<!-- /panel-group -->
+					
+					 {{/each}}
+					</div>
+				</div>
+			 </div>
+			
+				
+		</div>
+	</div>
+</section>

@@ -1,0 +1,54 @@
+/* EXTEND 
+-------------------------------------------------*/
+#header  { 
+  @extend %header-1;   
+}
+
+span.imgres  { 
+  @extend %imgres;   
+}
+
+.divmodal {    
+    @extend %divmodal;         
+}
+
+.owl-carousel {  
+    @extend %owl;      
+    &.nav-2 {
+        @extend %owl-nav-2;
+    }  
+}
+.cttab-v1 { 
+    @extend %cttab-v1;
+}
+.thumb-1 {
+    @extend %thumb-1;
+}
+ul.page-numbers {
+    @extend %pagination-1;
+}
+.wrap-rotate-text {
+    @extend %wrap-rotate-text;
+}
+
+
+//Form
+    .btn {    
+        @extend %btn;           
+    }
+    .input {   
+        @extend %input;          
+    }
+    select {   
+        @extend %select;          
+    }
+    label.checkbox {    
+        @extend %checkbox;           
+    }
+    label.radio {    
+        @extend %radio;           
+    }
+    label.switch {    
+        @extend %switch;           
+    }
+

@@ -1,0 +1,35 @@
+{
+	"title": "CƠ SỞ VẬT CHẤT",
+	"desc": "Với có quỹ đất hơn 9,1ha, tổng diện tích xây dựng hơn 40.000m2 gồm: 200 phòng học lý thuyết, 50 phòng thực hành chức năng; hệ thống nhà hàng, khách sạn, công ty lữ hành, công ty phim, trung tâm hội nghị tiệc cưới, trung tâm biểu diễn… giúp sinh viên thực hành và làm việc ngay tại trường. Khu ký túc xá với hơn 300 chỗ cho Tân sinh viên nhập học trong năm 2019 – 2020.<br>Hệ thống Thư viện gần 15.000 đầu sách, máy tính được kết nối internet; hệ thống học liệu điện tử kết nối dữ liệu với nhiều trường đại học trong nước và ngoài nước.",
+	"items":[
+		{
+			"img" : "infra/1.jpg",
+			"row" : 1
+		},
+		{
+			"img" : "infra/2.jpg",
+			"row" : 1,
+			"col": 1
+		},
+		{
+			"img" : "infra/3.jpg",
+			"row" : 1
+		},
+		{
+			"img" : "infra/4.jpg",
+			"row" : 2
+		},
+		{
+			"img" : "infra/5.jpg",
+			"row" : 2
+		},
+		{
+			"img" : "infra/6.jpg",
+			"row" : 2
+		},
+		{
+			"img" : "infra/7.jpg",
+			"row" : 2
+		}
+	]
+}

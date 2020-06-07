@@ -1,0 +1,32 @@
+[
+	{
+	    "title": "GIẢNG VIÊN",
+	    "url": "#team",
+	    "class":"current"
+	},
+	{
+	    "title": "CHƯƠNG TRÌNH ĐÀO TẠO",
+	    "url": "#program",
+	    "class":""
+	},
+	{
+	    "title": "TRIỂN VỌNG NGHỀ NGHIỆP",
+	    "url": "#career",
+	    "class":""
+	},
+	{
+	    "title": "HỌC BỔNG",
+	    "url": "#scholarship",
+	    "class":""
+	},
+	{
+	    "title": "HỌC PHÍ",
+	    "url": "#fee",
+	    "class":""
+	},
+	{
+	    "title": "ĐĂNG KÝ",
+	    "url": "#register",
+	    "class":""
+	}
+]

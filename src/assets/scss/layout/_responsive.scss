@@ -1,0 +1,82 @@
+@include min1200 {
+  #header {
+    .group-header ,
+    .group-header .imenu { display: none; }
+
+  }
+
+}
+
+@include max1199{
+		//-----------------------------------------MENU
+	// .mobile-center{
+	//   // 
+	//   ul.menu{
+	//       position: absolute;
+	//       left: 50%;
+	//       top: 50%;
+	//       transform: translate(-50%,-50%);
+	//       >li{
+	//         border-bottom: none;
+	//         > a{
+	//           white-space: nowrap;
+	//         }
+	//       }
+	//   }
+	//   .bottom{
+	//   	>*{
+	//   		position: absolute;
+	//   		bottom: 0;
+	//   		font-size: 14px;
+	//   	}
+	//   	.social{
+	// 		left: 15px;
+	// 		i{
+	// 			font-size: 20px;
+	// 		}
+	//   	}
+	//   	.contact{
+	//   		text-align: right;
+	//   		right: 15px;
+	//   	}
+	//   }
+	// }
+	#header .wrap-menu-header{ opacity: 0; visibility: hidden;}
+	// .wrap-menu-mb{
+	// 	width: 100%;
+	// }
+	.wrap-menu-mb {left:unset; top:90px; height: 320px; }
+
+	body{
+		font-size: 14px;
+	}
+
+	h1, .h1 { font-size:50px; }
+
+	.page-title{
+		font-size: 30px;
+	}
+	
+	.section{
+		padding: 50px 0;
+	}
+
+}
+
+@include max767{
+	body{
+		font-size: 14px;
+
+	}
+
+	#header .wrap-menu-header { display: none; }
+	h1, .h1 { font-size:27px; }
+	h2, .h2 { font-size:25px; line-height: inherit;}
+	h3,.h3 { font-size: 20px;}
+	h4,.h4 { font-size: 18px;}
+	h5,.h5 { font-size: 16px;}
+
+	.wrap-menu-mb {  top: 60px; height: 320px; }
+	
+	
+}

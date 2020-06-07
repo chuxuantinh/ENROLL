@@ -1,0 +1,71 @@
+{
+	"title": "HỌC BỔNG",
+    "img" : "scholarship/1.jpg",
+	"items":[
+		{
+			"title": "Bậc 02 năm:",
+			"desc" : "(căn cứ kết quả thi tuyển đầu vào đối với sinh viên nhận học bổng, có 03 loại)",
+			"types" : [
+				{
+					"title": "25 Tân sinh viên top thứ nhất:",
+					"desc": "Miễn phí 100% học bổng năm nhất."
+				},
+				{
+                    "title": "25 Tân sinh viên top thứ hai:",
+                    "desc": "Miễn phí 50% học bổng năm nhất."
+                },
+                {
+                    "title": "25 Tân sinh viên top thứ ba:",
+                    "desc": "Miễn phí 25% học bổng năm nhất."
+                }
+			] 
+		},
+        {
+            "title": "Bậc 03 năm",
+            "types" : [
+                {
+                    "title": "Học bổng 02 học kỳ:",
+                    "items":[
+                        {
+                            "title": "Tân sinh viên có chứng chỉ Toeic đạt 500 điểm hoặc IELTS 5.0 điểm trở lên."
+                        },
+                        {
+                            "title": "Tân sinh viên đạt giải trong các cuộc thi Văn, Thể, Mỹ cấp tỉnh trở lên (năm học 2018 – 2019)."
+                        },
+                        {
+                            "title": "Tân sinh viên có hoàn cảnh khó khăn đạt thành tích cao trong học tập (học sinh giỏi lớp 12 năm học 2018 – 2019) và đạt điểm trung bình từ 8.5 điểm trở lên."
+                        },
+                        {
+                            "title": "Tân sinh viên là cán bộ, nhân viên, giảng viên hoặc là con, anh, chị, em (ruột) của cán bộ, nhân viên, giảng viên của Trường."
+                        }
+                    ]
+                },
+                {
+                    "title": "Học bổng 01 học kỳ:",
+                    "items":[
+                        {
+                            "title": "Tân sinh viên có chứng chỉ quốc tế TOEIC đạt 350 điểm hoặc IELTS 3.5 điểm "
+                        }
+                    ]
+                },
+                {
+                    "title": "Miễn học phí ½ học kỳ:",
+                    "items":[
+                        {
+                            "title": "Tân sinh viên có anh, chị, em (ruột) đang theo học tại SAIGONACT; Tân sinh viên có hộ khẩu thường trú trên địa bàn lân cận SAIGONACT: Quận 12, Quận Gò Vấp, Quận Tân Phú, Quận Bình Tân, Huyện Hóc Môn và Huyện Củ Chi."
+                        }
+                    ]
+                }
+            ] 
+        },
+        {
+            "title": "Lưu ý:",
+            "types":[
+                {   "title": "Nhà trường sẽ nhận hồ sơ và xét học bổng ngay khi Tân sinh viên làm thủ tục nhập học đầu khoá."},
+                {   "title": "Khi xét học bổng đạt, các em sẽ nhận quyết định nhận học bổng"},
+                {   "title": "Học bổng sẽ được trả vào năm cuối cùng trước khi sinh viên tốt nghiệp"},
+                {   "title": "Trường hợp Tân sinh viên cùng lúc thoả được nhiều điều kiện về học bổng sẽ được ưu tiên xét nhận học bổng có giá trị cao nhất."}
+            ]
+        }
+	]
+}

@@ -1,0 +1,87 @@
+<section id="infra" class="section infra">
+	<div class="container-fluid">
+		
+		<div class="row grid-space-10 followHeight">
+		 {{#each infra.items}}
+
+		 	{{#ifequal row 1}}
+				<div class="col-xs-12  {{#ifequal @index 1}} col-sm-2 {{else}} col-sm-5 {{/ifequal}}">
+					<div class="item">
+				      <div class="thumb">
+				      	<div class="{{#ifequal @index 1}} tRes_100 {{else}} tRes_39{{/ifequal}}">
+				      		<img src="{{root}}assets/images/{{this.img}}"  alt="{{ this.title }}">
+				      	</div>
+				      </div>
+				 	</div>
+				 </div>
+		 	{{/ifequal}}
+			{{/each}}
+		</div>
+		<div class="row grid-space-10 followHeightAfter">
+			<!-- <div class=""> -->
+				<div class="col-xs-12 col-sm-9 equal2After">
+					<!-- 4/12 -->
+					<div class="row grid-space-10 followHeight">
+						<div class="col-xs-12 col-sm-4">
+							<div class="item ">
+						      <div class="thumb ">
+						      	<div class="tRes_120 equal1">
+						      		{{#with infra.items.[3].img as |items_img|}}
+						      		<img src="{{root}}assets/images/{{items_img}}"  alt="{{ this.title }}">
+						      		{{/with}}
+						      	</div>
+						      </div>
+						 	</div>
+						</div>
+						
+						<!-- 8/12 -->
+						<div class="col-xs-12 col-sm-8 equal2">
+							<div class="sec-title">
+								<h2 class="title">{{infra.title}}</h2>
+								<div class="desc">{{{infra.desc}}}</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row grid-space-10 line-3">
+						<div class="col-xs-12 col-sm-6">
+							<div class="item">
+						      <div class="thumb">
+						      	<div class="tRes_55">
+						      		{{#with infra.items.[4].img as |items_img|}}
+						      		<img src="{{root}}assets/images/{{items_img}}"  alt="{{ this.title }}">
+						      		{{/with}}
+						      	</div>
+						      </div>
+						 	</div>
+						</div>
+						
+						<div class="col-xs-12 col-sm-6">
+							<div class="item">
+						      <div class="thumb">
+						      	<div class="tRes_55">
+						      		{{#with infra.items.[5].img as |items_img|}}
+						      		<img src="{{root}}assets/images/{{items_img}}"  alt="{{ this.title }}">
+						      		{{/with}}
+						      	</div>
+						      </div>
+						 	</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="col-xs-12 col-sm-3 ">
+					<div class="item ">
+						<div class="thumb big-right equal1After">
+					      	<div class="tRes_202 ">
+					      		{{#with infra.items.[6].img as |items_img|}}
+					      		<img src="{{root}}assets/images/{{items_img}}"  alt="{{ this.title }}">
+					      		{{/with}}
+					      	</div>
+					    </div>
+					</div>
+				</div>
+			<!-- </div> -->
+		</div><!-- row grid-space-10 -->
+	</div>
+</section>

@@ -1,0 +1,63 @@
+<section id="scholarship" class="section scholarship">
+	<div class="container-fluid">
+		<div class="row grid-space-0">
+		
+			<div class="col-xs-12 col-sm-6">
+				<div class="row">
+					<div class="col-xs-12">
+						<h2 class="title">{{scholarship.title}}</h2>
+					</div>
+					
+					<div class="col-xs-12 col-sm-10">
+						<div class="thumb">
+							<div class="tRes_75">
+								<img src="{{root}}assets/images/{{scholarship.img}}" alt="{{ this.title }}" width="540" height="360">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			 <div class="col-xs-12 col-sm-6">
+			 	<div class="col-xs-12 col-sm-12 col-md-10">
+			 		<div class="article">
+					 {{#each scholarship.items}}
+					
+					 	<div class="item type">
+					      <h5 class="title">{{ this.title }}
+						      {{#if this.desc}}
+						      	<span class="desc">{{ this.desc }}</span>
+						      {{/if}}
+					      </h5>
+							
+							<ul class="listing-icon listing-chevron-right">
+						       {{#each this.types}}
+						       	<li>
+						       		<strong>{{this.title}}</strong> 
+						       		{{#if this.desc}}
+						       			<span>{{this.desc}}</span>
+						       		{{/if}}
+
+						       		{{#if this.items}}
+							       		 <ul class="listing">
+							       		 {{#each this.items}}
+							       			<li>{{this.title}}</li>
+							       		 {{/each}}
+							       		 </ul>
+						       		{{/if}}
+						       	</li>
+						       {{/each}}
+					       </ul>
+
+					    </div>
+					
+					 {{/each}}
+				 </div>
+					<!-- <a href="#" class="link">Xem thêm <i class="icon icon-chevron-down"></i></a> -->
+				</div>
+
+			 </div>
+				
+		</div>
+	</div>
+</section>

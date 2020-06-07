@@ -1,0 +1,85 @@
+---
+layout: default
+title: Home
+---
+
+<section id="home-banner" class="full-banner-2 tRes_2_1 bg-lazy" style="background-image: url(assets/images/banners/home-banner.jpg);" 
+data-src="assets/images/banners/home-banner.jpg" >
+    <div class="OwlSlider owl-carousel s-loop s-fade s-auto" data-autospeed="2000"    >
+    	{{#each web.slogans}}
+        <div class="item h1"># {{this}}</div>   
+        {{/each}}
+    </div>
+</section>
+
+<section id="welcome" class="section welcome">
+	<h3 class="title text-center">
+	<!-- 	Chào mừng đến với <br>
+		Trường Cao đẳng Văn hóa Nghệ thuật và Du lịch Sài Gòn (SAIGONACT) -->
+		{{{ web.h1 }}}
+	</h3>
+
+
+</section>
+
+
+<section id="reason" class="section reason">
+	<div class="container">
+		<div class="row grid-space-0">
+			<div class="col-xs-12 col-sm-6">
+				<div class="text display-table ">
+					<div class="table-cell">
+						<div class="article">
+							<h2 class="title">{{{reason.title}}}</h2>
+							
+							<ul class="listing-icon listing-chevron-right">
+							 {{#each reason.items}}
+							      <li class="">{{ this }}</li>
+							 {{/each}}
+							 </ul>
+							 <!-- <a href="#" class="link"><i class="icon-chevron-down"></i></a> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- teams -->
+{{> teams }}
+
+<!-- program -->
+{{> program }}
+
+
+<!-- career -->
+{{> career }}
+
+
+<!-- infrastructure -->
+{{> infra}}
+
+<!-- scholarship -->
+{{> scholarship}}
+
+<!-- fee -->
+{{> fee }}
+
+<!-- schedule -->
+{{> schedule }}
+
+<!-- register -->
+<section id="register" class="section register">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 sec-title">
+					<h2 class="">{{register.title}}</h2>
+					<div class="desc">{{{register.desc}}}</div>
+			</div>
+			<div class="col-xs-12 col-sm-10 col-sm-offset-1">
+			{{> form}}
+			</div>
+		</div>
+	</div>
+</section>

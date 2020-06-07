@@ -1,0 +1,30 @@
+<div class="wrap-menu-mb" data-style="1">
+  <div class="wrapul main mobile-center">
+   <!--  <ul class="menu"> 
+          <li class="current"><a href="#">GIẢNG VIÊN</a>
+          <li><a href="#">CHƯƠNG TRÌNH ĐÀO TẠO</a></li>
+          <li><a href="#">TRIỂN VỌNG NGHỀ NGHIỆP</a></li>
+          <li><a href="#">HỌC BỔNG</a></li>
+          <li><a href="#">HỌC PHÍ</a></li>
+          <li><a href="#">ĐĂNG KÝ</a></li>
+    </ul>  -->
+
+  <ul class="menu main-menu">
+    {{#each menu}}
+      <li class="{{this.class}}"><a href="{{this.url}}">{{ this.title }}</a></li>
+    {{/each}}
+  </ul>
+
+   <!--  <div class="bottom">
+        <ul class=" social list-inline text-center">
+          <li><a href="#"><i class="icon icon-facebook"></i></a></li>
+          <li><a href="#"><i class="icon icon-instagram"></i></a></li>
+        </ul>
+        <div class="contact">
+          <a href="tel:+84(28)37442991​​">+84 (28) 3744 2991​​</a><br>
+         <a href="tel:+84982012860">+84 982 012 860</a><br>
+       </div>
+    </div> -->
+
+  </div> 
+</div>

@@ -1,0 +1,105 @@
+{
+	"title": "ĐỘI NGŨ GIẢNG VIÊN",
+	"desc": "Đội ngũ giảng viên giàu kinh nghiệm và tận tâm với nghề, là các Giáo sư, Tiến sĩ, Thạc sĩ, Nghệ sĩ nhân dân, Nghệ sĩ ưu tú, người nổi tiếng đang hoạt động trong các lĩnh vực kinh tế, du lịch, ngoại ngữ, công nghệ thông tin, nghệ thuật và mỹ thuật công nghiệp.",
+	"items":[
+		{
+			"title": "KHOA DU LỊCH",
+			"img" : "team/1.jpg",
+			"url" : "#" ,
+			"members":[
+				{ "name": "1 PGS.TS Vũ Tuấn Cảnh - Cố vấn" },
+				{ "name": "PGS.TS Trần Văn Thanh - Cố vấn" },
+				{ "name": "NCS.ThS. Trần Thị Tuyết Sương - Phó trưởng Khoa" },
+				{ "name": "ThS. Nguyễn Cao Thắng - Phó trưởng Khoa" },
+				{ "name": "ThS. Nguyễn Đức Thịnh" },
+				{ "name": "ThS. Trần Đình Phương" },
+				{ "name": "ThS. Nguyễn Thị Lý" },
+				{ "name": "ThS. Trần Thị Kim Oanh" },
+				{ "name": "ThS. Trần Ngọc Hân" },
+				{ "name": "ThS. Võ Thị Búp" }
+			],
+			"notes": "Cùng nhiều giảng viên là những cán bộ quản lý, phụ trách công tác tại các Nhà hàng, Khách sạn, Công ty Lữ hành nổi tiếng của Thành phố Hồ Chí Minh và trong cả nước."
+		},
+		{
+			"title": "KHOA KINH TẾ",
+			"img" : "team/2.jpg",
+			"url" : "#",
+			"members":[
+				{ "name": "PGS.TS Trần Anh Tuấn - Cố vấn" },
+				{ "name": "ThS. Vũ Thị Loan - Phó trưởng Khoa" },
+				{ "name": "TS. Ngô Thị Thục – Cố vấn" },
+				{ "name": "ThS. Đỗ Thị Hồng Phú - Phó trưởng Khoa" },
+				{ "name": "TS. Nguyễn Danh Ngà" },
+				{ "name": "TS. Nguyễn Danh Thuận" },
+				{ "name": "ThS. Đỗ Thị Phượng" },
+				{ "name": "ThS. Trần Quốc Hùng" },
+				{ "name": "ThS. Nguyễn Thế Hùng" },
+				{ "name": "ThS. Nguyễn Văn Nhân" },
+				{ "name": "ThS. Phan Thị Trà Mỹ" }
+			]
+		},
+		{
+			"title": "KHOA NGOẠI NGỮ",
+			"img" : "team/3.jpg",
+			"url" : "#",
+			"members":[
+				{"name" : "1PGS. TS Phùng Quý Nhâm - Cố vấn" },
+				{"name" : "ThS. Nguyễn Thanh Hằng - Phó trưởng Khoa" },
+				{"name" : "TS. Hà Lệ" },
+				{"name" : "TS. Kiều Thị Vân Anh" },
+				{"name" : "ThS. Nguyễn Kim Ánh" },
+				{"name" : "ThS. Ngô Kim Phượng" },
+				{"name" : "ThS. Huỳnh Sang" },
+				{"name" : "ThS. Hoàng Tiểu Nga" },
+				{"name" : "ThS. Mai Thị Thúy Phượng" },
+				{"name" : "ThS. Lý Văn Hà " },
+				{"name" : "CN. Park Dea Ny (Tình nguyện viên Koica)" },
+				{"name" : "CN. Nguyễn Trường Xuân…" }
+			]
+		},
+		{
+			"title": "KHOA NGHỆ THUẬT",
+			"img" : "team/4.jpg",
+			"url" : "#",
+			"members":[
+				{"name" : "NSND. PGS.TS Vũ Hướng - Cố vấn" },
+				{"name" : "NSƯT. ThS. Trần Đức Hải - Phó Hiệu trưởng kiêm Trưởng Khoa" },
+				{"name" : "NSƯT. ThS. Lê Đại Chức" },
+				{"name" : "NSND. ThS. Đặng Hùng" },
+				{"name" : "NSƯT. Đỗ Phương Toàn" },
+				{"name" : "ThS. Đặng Như Hoàng" },
+				{"name" : "Hoa hậu Phạm Hương" },
+				{"name" : "Diễn viên Hữu Nghĩa" },
+				{"name" : "Diễn viên Ngọc Tưởng" },
+				{"name" : "Diễn viên Lê Hay" },
+				{"name" : "Ca sĩ Thanh Sử" },
+				{"name" : "Ca sĩ Duy Anh" },
+				{"name" : "Ca sĩ Hà Tiến Dũng…" }
+			]
+		},
+		{
+			"title": "KHOA MỸ THUẬT CÔNG NGHIỆP",
+			"img" : "team/5.jpg",
+			"url" : "#",
+			"members":[
+				{"name": "TS. Trần Hành" },
+				{"name": "TS. Nguyễn Đức Minh" },
+				{"name": "ThS. Nguyễn Văn Phẩm" },
+				{"name": "ThS. Nguyễn Đức Bảo" },
+				{"name": "NTK Nguyễn Việt Hùng…" }
+			]
+		},
+		{
+			"title": "KHOA CÔNG NGHỆ THÔNG TIN",
+			"img" : "team/6.jpg",
+			"url" : "#",
+			"members":[
+				{ "name": "NCS. ThS. Nguyễn Tâm Thanh Tùng" },
+				{ "name": "ThS. Nguyễn Văn Phụng" },
+				{ "name": "ThS. Phạm Min" },
+				{ "name": "ThS. Trần Anh Tuấn" },
+				{ "name": "ThS. Nguyễn Ngọc Thanh" }
+			]
+		}
+	]
+}

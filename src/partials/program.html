@@ -1,0 +1,52 @@
+<section id="program" class="section program bg-gradient">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 sec-title">
+					<h2 class="text-center">{{web.program}}</h2>
+			</div>
+		</div>
+		<div class="row">
+			 {{#each levels}}
+			 <div class="col-xs-12 col-sm-4">
+			     <div class="item">
+			     	 <h4 class="title">{{ this.title }} {{{this.notes}}} gồm:</h4>
+			     	 <div class="desc">{{{ this.desc }}}</div>
+					
+					{{#each this.groups}}
+			     	<div class="panel-group department"  id="accordion-{{@../key}}_{{@index}}">
+		     	 	  <div class="panel panel-default">
+						    <div class="panel-heading">
+						      <h4 class="panel-title">
+						        <a data-toggle="collapse" data-parent="#accordion-{{@../key}}_{{@index}}" href="#collapse-{{@../key}}_{{@index}}">
+						       	{{this.title }} 
+						    	</a>
+						      </h4>
+						    </div>
+						    <div id="collapse-{{@../key}}_{{@index}}" class="panel-collapse collapse">
+						      <div class="panel-body">
+
+						      		<div class="stage">
+						      			<!-- <div class="title">{{this.title}}</div> -->
+						      			
+	 							      	<ul class="listing">
+	 							      		{{#each this.deps}}
+	 							      		<li>
+	 							      			{{this}}
+	 							      		</li>
+	 							      		{{/each}}
+	 							      	</ul>
+						      		</div>
+						      	
+						      </div>
+						    </div>
+						  </div>
+			     	</div><!-- /panel-group -->
+			     	{{/each}}
+
+			     </div><!-- /item -->
+			 </div>
+			 {{/each}}
+				
+		</div>
+	</div>
+</section>

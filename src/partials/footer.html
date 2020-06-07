@@ -1,0 +1,60 @@
+<script src="{{root}}assets/js/app.js"></script>
+<!-- <script src="{{root}}assets/js/theme.js"></script> -->
+
+<div id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-5 col-1">
+        <h5 class="title">{{web.footer.title}}</h5>
+         <div class="address">
+          
+          <div class="item">
+            <strong>Địa chỉ</strong>:{{web.footer.address}}</div>
+
+           <div class="item phone">
+              <strong>{{web.footer.mobile.title}}:</strong>
+             <div class="number">  
+               {{#each web.footer.mobile.items}}
+                  <a href="tel:{{this.number}}">{{this.number}}</a><br>
+               {{/each}}
+             </div>
+           </div>
+
+          <div class="item">
+            <strong>{{web.footer.hotline.title}}:</strong>
+            <a href="tel:+{{web.footer.hotline.number}}">{{web.footer.hotline.number}}</a>
+          </div>
+
+
+         </div>
+          
+          <ul class="social">
+            <li><a href="http://daihocdulich.edu.vn/"><i class="icon icon-web-outline"></i></a></li>
+            <li><a href="https://www.facebook.com/daihocdulichsaigon"><i class="icon icon-facebook-outline"></i></a></li>
+            <li><a href="https://www.youtube.com/user/saigonactedu"><i class="icon icon-youtube-outline"></i></a></li>
+            <li><a href="mailto:info@daihocdulich.edu.vn"><i class="icon icon-mail-outline"></i></a></li>
+          </ul>
+      </div>
+
+      <div class="col-xs-12 col-sm-7 col-2">
+        <div id="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.689534727826!2d106.61180311480139!3d10.835054192281756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752bccf94e353d%3A0xfa8ac0e6f1ed4de9!2zNzAgxJDGsOG7nW5nIFTDom4gVGjhu5tpIE5o4bqldCA4LCBUw6JuIFRo4bubaSBOaOG6pXQsIFF14bqtbiAxMiwgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1sen!2s!4v1558409128857!5m2!1sen!2s" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<div id="copyright">
+  <div class="container">
+   <div class="row">
+        <div class="col-sm-12 ">
+              <p>{{ web.footer.copyright }}</p>
+          </div>
+      </div>
+  </div>
+</div>
+<div id="back-top" class="">
+  <i class="icon icon-chevron-up"></i>
+  <!-- <img src="assets/images/btn-back-top.svg"> -->
+</div>

@@ -1,0 +1,73 @@
+{
+	"title": "HỌC PHÍ NĂM HỌC <br>2019 - 2020",
+    "img" : "bg/fee.png",
+    "desc" : "(Cam kết không thay đổi trong suốt khoá học)",
+
+	"items":[
+		{
+			"title": "BẬC CAO ĐẲNG",
+			"types" : [
+				{
+					"title": "Hệ 3 năm khóa 14",
+					"items":[
+                        {
+                            "title": "Ngành thanh nhạc, diễn viên",
+                            "price": "10.000.000đ/HK"
+                        },
+                        {
+                            "title": "Ngành Mỹ thuật công nghiệp:",
+                            "price": "9.000.000đ/HK"
+                        },
+                        {
+                            "title": "Các ngành khác:",
+                            "price": "7.500.000đ/HK"
+                        }
+
+                    ]
+				},
+                {
+                    "title": "Hệ 2 năm khóa 14",
+                    "items":[
+                        {
+                            "title": "Ngành thanh nhạc, diễn viên",
+                            "price": "15.000.000đ/HK"
+                        },
+                        {
+                            "title": "Ngành Mỹ thuật công nghiệp:",
+                            "price": "13.500.000đ/HK"
+                        },
+                        {
+                            "title": "Các ngành khác:",
+                            "price": "11.250.000đ/HK"
+                        }
+
+                    ]
+                }
+				
+			] 
+		},
+        {
+            "title": "BẬC TRUNG CẤP",
+            "types" : [
+                {
+                    "title": "Khóa 14",
+                    "items":[
+                        {
+                            "title": "Ngành thanh nhạc, diễn viên",
+                            "price": "6.000.000đ/HK"
+                        },
+                        {
+                            "title": "Ngành Mỹ thuật công nghiệp:",
+                            "price": "6.000.000đ/HK"
+                        },
+                        {
+                            "title": "Các ngành khác:",
+                            "price": "5.500.000đ/HK"
+                        }
+
+                    ]
+                }
+            ] 
+        }
+	]
+}

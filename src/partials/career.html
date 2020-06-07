@@ -1,0 +1,56 @@
+<section id="career" class="section career">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 sec-title">
+					<h2 class="">{{career.title}}</h2>
+			</div>
+		</div>
+		
+		 {{#each career.items}}
+
+			 {{#if left}}
+			    <div class="row">
+			 	<div class="item followHeight">
+					<div class="col-xs-12 col-sm-6 col-sm-push-6 equal2">
+				      <div class="thumb">
+				      	<div class="tRes_75">
+				      		<img src="{{root}}assets/images/{{this.img}}"  alt="{{ this.title }}">
+				      	</div>
+				      </div>
+				 	</div>
+				 	<div class="col-xs-12 col-sm-6 col-sm-pull-6">
+					     <div class="display-table equal1">
+					     	<div class="text table-cell">
+					     		 <h4 class="title">{{ this.title }}</h4>
+					     		<div class="desc">{{{this.desc}}}</div>
+					     	</div>
+					     </div>
+					</div>
+				 </div>
+			 </div>
+			  {{else}}
+			     <div class="row">
+				 	<div class="item followHeight">
+				 		<div class="col-xs-12 col-sm-6 equal2">
+					      <div class="thumb">
+					      	<div class="tRes_75">
+					      		<img src="{{root}}assets/images/{{this.img}}"  alt="{{ this.title }}">
+					      	</div>
+					      </div>
+					 	</div>
+						<div class="col-xs-12 col-sm-6">
+						     <div class="display-table equal1">
+						     	<div class="text table-cell">
+						     		 <h4 class="title">{{ this.title }}</h4>
+						     		<div class="desc">{{{this.desc}}}</div>
+						     	</div>
+						     </div>
+						</div>
+					 </div>
+				 </div>
+			  {{/if}}
+		
+		 {{/each}}
+		
+	</div>
+</section>
